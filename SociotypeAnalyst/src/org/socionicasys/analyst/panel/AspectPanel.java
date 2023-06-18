@@ -71,7 +71,7 @@ public final class AspectPanel extends ActivePanel {
 		block = new JRadioButton("Block");
 		block.addItemListener(this);
 		block.setActionCommand("block");
-		jump = new JRadioButton("RIEC");
+		jump = new JRadioButton("Transfer");
 		jump.addItemListener(this);
 		jump.setActionCommand("jump");
 

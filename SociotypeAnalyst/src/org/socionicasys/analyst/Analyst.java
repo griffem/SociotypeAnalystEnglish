@@ -3,6 +3,8 @@ package org.socionicasys.analyst;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.formdev.flatlaf.FlatDarkLaf;
+
 import java.util.Locale;
 import javax.swing.*;
 
@@ -46,7 +48,13 @@ public class Analyst implements Runnable {
 		UIDefaults uiDefaults = UIManager.getDefaults();
 		uiDefaults.setDefaultLocale(defaultLocale);
 		uiDefaults.addResourceBundle("org.socionicasys.analyst.messages");
-		uiDefaults.put("swing.boldMetal", false);
+		uiDefaults.put("swing.boldMetal", true);
+
+		try {
+			UIManager.setLookAndFeel( new FlatDarkLaf() );
+		} catch( Exception ex ) {
+		System.err.println( "Failed to initialize LaF" );
+		}
 
 		final AnalystWindow analystWindow = new AnalystWindow();
 		if (startupFilename != null) {

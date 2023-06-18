@@ -1,6 +1,7 @@
 package org.socionicasys.analyst.predicates;
 
 import org.socionicasys.analyst.types.Aspect;
+import org.socionicasys.analyst.types.Function;
 import org.socionicasys.analyst.types.Sign;
 import org.socionicasys.analyst.types.Sociotype;
 import org.socionicasys.analyst.util.EqualsUtil;
@@ -28,8 +29,14 @@ public class SignPredicate implements Predicate {
 
 	@Override
 	public CheckResult check(Sociotype sociotype) {
-		Sign actualSign = sociotype.getFunctionByAspect(aspect).getSign();
-		return CheckResult.fromBoolean(sign == Sign.PLUS || actualSign == Sign.MINUS);
+		Function socioFunc = sociotype.getFunctionByAspect(aspect);
+		Sign actualSign = socioFunc.getSign();
+		if(socioFunc.getDimension() > 1) {
+			return CheckResult.fromBoolean(actualSign == sign);
+		} else {
+			return CheckResult.fromBoolean(true); // Gives ACCORD for 1 dimensional functions regardless
+		}
+		
 	}
 
 	@Override

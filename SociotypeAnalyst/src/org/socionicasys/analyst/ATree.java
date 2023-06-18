@@ -31,12 +31,12 @@ public class ATree extends JTree {
 	private static final String DIMENSIONS_LABEL = "Dimensions";
 	private static final String MV_LABEL = "Mental/Vital";
 	private static final String LOW_DIMENSION_LABEL = "Low-dimensionality";
-	private static final String HIGH_DIMENSION_LABEL = "High-demensionality";
+	private static final String HIGH_DIMENSION_LABEL = "High-dimensionality";
 	private static final String DIMENSION1_LABEL = "One-dimensionality";
 	private static final String INDIVIDUALITY_LABEL = "Individuality";
 	private static final String BLOCKS_LABEL = "Blocks";
 	private static final String DOUBT_LABEL = "Unclear passages";
-	private static final String JUMPS_LABEL = "RIECs";
+	private static final String JUMPS_LABEL = "Transfers";
 
 	private static final String HTML_CELL_OPEN = "<td align=\"center\">";
 	private static final String HTML_CELL_OPEN_STRONG = "<td style=\"font-weight:bold\">";

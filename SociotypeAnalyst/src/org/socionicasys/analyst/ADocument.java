@@ -53,12 +53,11 @@ public class ADocument extends DefaultStyledDocument {
 		//style of general text
 		DEFAULT_STYLE = new SimpleAttributeSet();
 		DEFAULT_STYLE.addAttribute(StyleConstants.FontSize, 16);
-		DEFAULT_STYLE.addAttribute(StyleConstants.Foreground, Color.darkGray);
-		DEFAULT_STYLE.addAttribute(StyleConstants.Background, Color.white);
+		DEFAULT_STYLE.addAttribute(StyleConstants.Foreground, Color.white);
 		DEFAULT_STYLE.addAttribute(StyleConstants.FontFamily, Font.SANS_SERIF);
 		//style of a section with mark-up
 		DEFAULT_SECTION_STYLE = new SimpleAttributeSet();
-		DEFAULT_SECTION_STYLE.addAttribute(StyleConstants.Background, Color.decode("#E0ffff"));
+		DEFAULT_SECTION_STYLE.addAttribute(StyleConstants.Background, Color.decode("#415b8c"));
 	}
 
 	/**

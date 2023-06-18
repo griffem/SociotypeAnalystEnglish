@@ -25,11 +25,11 @@ public class AData implements Serializable {
 	public static final String DOUBT = "To be clarified";
 
 	public static final String BLOCK = "BLOCK";
-	public static final String JUMP = "RIEC";
+	public static final String JUMP = "TRANSFER";
 	private static final List<String> VALID_MODIFIERS = Arrays.asList(BLOCK, JUMP);
 
-	private static final String BLOCK_TOKEN = "~";
-	private static final String JUMP_TOKEN = ">";
+	private static final String BLOCK_TOKEN = " blocked with ";
+	private static final String JUMP_TOKEN = " transferred to ";
 	private static final String SEPARATOR = ";";
 
 	public static final String PLUS = "PLUS";
