@@ -483,6 +483,11 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 			res.append("background-color:#FFFFCC;");
 			unstyled = false;
 		}
+
+		if (data.getBlocks() != null) {
+			res.append("background-color:#FFFFCC;");
+			unstyled = false;
+		}
 		//Если не задан другой стиль, то будет этот стиль
 		if (unstyled) {
 			res.append("text-decoration:underline");

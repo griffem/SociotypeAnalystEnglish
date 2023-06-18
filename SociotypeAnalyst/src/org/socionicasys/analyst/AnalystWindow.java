@@ -368,8 +368,8 @@ public class AnalystWindow extends JFrame {
 		ADocument document = documentHolder.getModel();
 		if (document.getLength() > 0) {
 			choice = JOptionPane.showOptionDialog(this,
-				"Current document is not empty.\n\nSave current document?",
-				"Please confirm",
+				"Current document is not empty.\nSave current document?",
+				"SSS Analyst",
 				JOptionPane.YES_NO_CANCEL_OPTION,
 				JOptionPane.ERROR_MESSAGE,
 				null,
@@ -388,7 +388,7 @@ public class AnalystWindow extends JFrame {
 							if (file.exists()) {
 								Object[] options = {"Yes", "No"};
 								int option = JOptionPane.showOptionDialog(this,
-									"File with this name already exists!\n\nDo you want to overwrite it?", "Warning!!!",
+									"File with this name already exists!\nDo you want to overwrite it?", "Warning!",
 									JOptionPane.YES_NO_OPTION,
 									JOptionPane.QUESTION_MESSAGE,
 									null,
@@ -460,7 +460,7 @@ public class AnalystWindow extends JFrame {
 				if (saveFile.exists()) {
 					Object[] options = {"Yes", "No"};
 					int replaceResult = JOptionPane.showOptionDialog(AnalystWindow.this,
-						"File with this name already exists!\n\nDo you want to overwrite it?", "Warning!!!",
+						"File with this name already exists.\nDo you want to overwrite it?", "Warning!",
 						JOptionPane.YES_NO_OPTION,
 						JOptionPane.QUESTION_MESSAGE,
 						null,

@@ -46,7 +46,7 @@ public class AboutAction extends AbstractAction {
 		licText.setWrapStyleWord(true);
 		licText.setAutoscrolls(false);
 
-		licText.setText("WARNING!!! Failed to open the lisence file.\n\n" +
+		licText.setText("WARNING! Failed to open the license file.\n\n" +
 			"According to the original GNU GPU licence the software must be supplied with the text of the original licence.\n\n" +
 			"Absence of such a licence can unreasonably reduce your user rights. \n\n" +
 			"Request the original licence from the sofware supplier.\n\n" +

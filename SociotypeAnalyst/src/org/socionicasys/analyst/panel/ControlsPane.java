@@ -14,6 +14,7 @@ public class ControlsPane extends JToolBar {
 
 		SignPanel signPanel = new SignPanel(selectionModel);
 		FDPanel fdPanel = new FDPanel(selectionModel);
+		BlocksPanel blocksPanel = new BlocksPanel(selectionModel);
 		DimensionPanel dimensionPanel = new DimensionPanel(selectionModel);
 		AspectPanel aspectPanel = new AspectPanel(selectionModel);
 
@@ -28,6 +29,7 @@ public class ControlsPane extends JToolBar {
 		container.add(signPanel);
 		container.add(dimensionPanel);
 		container.add(fdPanel);
+		container.add(blocksPanel);
 		add(container);
 	}
 }

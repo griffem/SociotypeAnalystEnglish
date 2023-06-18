@@ -120,6 +120,23 @@ public final class SocionicsType {
 			predicates.add(fdPredicate);
 		}
 
+		String blocks = data.getBlocks();
+		if (blocks != null) {
+			Predicate blocksPredicate;
+			if (blocks.equals(AData.EGO)) {
+				blocksPredicate = new EgoPredicate(baseAspect);
+			} else if (blocks.equals(AData.SUPEREGO)) {
+				blocksPredicate = new SuperegoPredicate(baseAspect);
+			} else if (blocks.equals(AData.SUPERID)) {
+				blocksPredicate = new SuperidPredicate(baseAspect);
+			} else if (blocks.equals(AData.ID)) {
+				blocksPredicate = new IdPredicate(baseAspect);
+			} else {
+				throw new IllegalArgumentException("Illegal Blocks in SocionicsType.matches()");
+			}
+			predicates.add(blocksPredicate);
+		}
+
 		return predicates;
 	}
 }

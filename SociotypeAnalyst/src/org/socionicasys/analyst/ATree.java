@@ -100,6 +100,10 @@ public class ATree extends JTree {
 			predicateCounts.put(new SituationalPredicate(aspect), 0);
 			predicateCounts.put(new VitalPredicate(aspect), 0);
 			predicateCounts.put(new MentalPredicate(aspect), 0);
+			predicateCounts.put(new EgoPredicate(aspect), 0);
+			predicateCounts.put(new SuperegoPredicate(aspect), 0);
+			predicateCounts.put(new SuperidPredicate(aspect), 0);
+			predicateCounts.put(new IdPredicate(aspect), 0);
 			for (Aspect secondAspect : ASPECTS) {
 				predicateCounts.put(new BlockPredicate(aspect, secondAspect), 0);
 				predicateCounts.put(new JumpPredicate(aspect, secondAspect), 0);
@@ -247,6 +251,14 @@ public class ATree extends JTree {
 			appendEndTreeNode(aspectFDsNode, new VitalPredicate(aspect));
 			appendEndTreeNode(aspectFDsNode, new EvaluatoryPredicate(aspect));
 			appendEndTreeNode(aspectFDsNode, new SituationalPredicate(aspect));
+
+			DefaultMutableTreeNode aspectBlocksNode = new DefaultMutableTreeNode(BLOCKS_LABEL);
+			aspectNode.add(aspectBlocksNode);
+
+			appendEndTreeNode(aspectBlocksNode, new EgoPredicate(aspect));
+			appendEndTreeNode(aspectBlocksNode, new SuperegoPredicate(aspect));
+			appendEndTreeNode(aspectBlocksNode, new SuperidPredicate(aspect));
+			appendEndTreeNode(aspectBlocksNode, new IdPredicate(aspect));
 		}
 
 

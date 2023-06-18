@@ -14,19 +14,19 @@ import java.util.Map;
 /**
  * Function Dichotomies Panel
  */
-public final class FDPanel extends ActivePanel {
+public final class BlocksPanel extends ActivePanel {
 	private final Map<String, JRadioButton> buttons;
 	private final ButtonGroup buttonGroup;
 	private final JButton clearButton;
 
-	public FDPanel(DocumentSelectionModel selectionModel) {
+	public BlocksPanel(DocumentSelectionModel selectionModel) {
 		super(selectionModel);
 
 		buttons = new HashMap<String, JRadioButton>(4);
-		buttons.put(AData.MENTAL, new JRadioButton("Mental"));
-		buttons.put(AData.VITAL, new JRadioButton("Vital"));
-		buttons.put(AData.EVALUATORY, new JRadioButton("Evaluatory"));
-		buttons.put(AData.SITUATIONAL, new JRadioButton("Situational"));
+		buttons.put(AData.EGO, new JRadioButton("Ego"));
+		buttons.put(AData.SUPEREGO, new JRadioButton("Super-Ego"));
+		buttons.put(AData.SUPERID, new JRadioButton("Super-Id"));
+		buttons.put(AData.ID, new JRadioButton("Id"));
 
 		buttonGroup = new ButtonGroup();
 		for (Map.Entry<String, JRadioButton> entry : buttons.entrySet()) {
@@ -54,10 +54,10 @@ public final class FDPanel extends ActivePanel {
 
 		pp1.setLayout(new BoxLayout(pp1, BoxLayout.Y_AXIS));
 		pp2.setLayout(new BoxLayout(pp2, BoxLayout.Y_AXIS));
-		pp1.add(buttons.get(AData.MENTAL));
-		pp1.add(buttons.get(AData.VITAL));
-		pp2.add(buttons.get(AData.EVALUATORY));
-		pp2.add(buttons.get(AData.SITUATIONAL));
+		pp1.add(buttons.get(AData.EGO));
+		pp1.add(buttons.get(AData.SUPEREGO));
+		pp2.add(buttons.get(AData.SUPERID));
+		pp2.add(buttons.get(AData.ID));
 		pp.setLayout(new BoxLayout(pp, BoxLayout.X_AXIS));
 
 		pp.add(pp1);
@@ -67,7 +67,7 @@ public final class FDPanel extends ActivePanel {
 
 		add(pp);
 		add(clearButton);
-		setBorder(new TitledBorder("Function Dichotomies"));
+		setBorder(new TitledBorder("Blocks"));
 
 		updateView();
 	}
@@ -77,9 +77,9 @@ public final class FDPanel extends ActivePanel {
 	 */
 	@Override
 	protected void updateView() {
-		String fd = selectionModel.getFD();
+		String blocks = selectionModel.getBlocks();
 		boolean panelEnabled = !selectionModel.isEmpty() && !selectionModel.isMarkupEmpty();
-		boolean selectionEnabled = panelEnabled && fd != null;
+		boolean selectionEnabled = panelEnabled && blocks != null;
 
 		for (JRadioButton button : buttons.values()) {
 			button.setEnabled(panelEnabled);
@@ -87,7 +87,7 @@ public final class FDPanel extends ActivePanel {
 		clearButton.setEnabled(selectionEnabled);
 
 		if (selectionEnabled) {
-			JRadioButton selectedButton = buttons.get(fd);
+			JRadioButton selectedButton = buttons.get(blocks);
 			buttonGroup.setSelected(selectedButton.getModel(), true);
 		} else {
 			buttonGroup.clearSelection();
@@ -101,9 +101,9 @@ public final class FDPanel extends ActivePanel {
 	protected void updateModel() {
 		ButtonModel selectedButtonModel = buttonGroup.getSelection();
 		if (selectedButtonModel == null) {
-			selectionModel.setFD(null);
+			selectionModel.setBlocks(null);
 		} else {
-			selectionModel.setFD(selectedButtonModel.getActionCommand());
+			selectionModel.setBlocks(selectedButtonModel.getActionCommand());
 		}
 	}
 }

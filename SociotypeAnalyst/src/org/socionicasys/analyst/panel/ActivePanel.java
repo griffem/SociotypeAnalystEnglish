@@ -9,26 +9,26 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
 /**
- * Общий класс для всех панелей, позволяющих изменять отметки
- * (аспект/размерность и т. д.) в текущем выделении.
+ * A common class for all panels that allow you to change the marks
+ * (aspect/size, etc.) in the current selection.
  */
 public abstract class ActivePanel extends JPanel implements PropertyChangeListener, ItemListener {
 	/**
-	 * Модель выделения, к которой привязана данная панель.
+	 * Selection model to which this panel is attached.
 	 */
 	protected final DocumentSelectionModel selectionModel;
 
 	/**
-	 * Служит для синхронизации обновлений модель->представление и представление->модель.
-	 * Если это поле равно {@code false}, данные в нем находятся в процессе заполнения, и
-	 * не должны синхронизироваться обратно в модель.
+	 * Used to synchronize updates model->view and view->model.
+	 * If this field is {@code false}, the data in it is in the process of filling and
+	 * should not be synchronized back into the model.
 	 */
 	protected boolean viewInitialized;
 
 	/**
-	 * Создает панель с привязкой к заданной модели выделения.
+	 * Creates a panel with a link to a given selection model.
 	 *
-	 * @param selectionModel модель выделения, которую будет отображать и изменять панель
+	 * @param selectionModel selection model that the panel will display and modify
 	 */
 	protected ActivePanel(DocumentSelectionModel selectionModel) {
 		this.selectionModel = selectionModel;
