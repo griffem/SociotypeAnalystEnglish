@@ -7,8 +7,8 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
 /**
- * Описывает выделение внутри документа, и возможные отметки в этом выделении.
- * Позволяет другим объектам отслеживать изменения в этом выделении.
+ * Describes the selection within the document, and possible marks in that selection.
+ * Allows other objects to track changes in that selection.
  */
 @SuppressWarnings("NestedAssignment")
 public class DocumentSelectionModel {
@@ -19,7 +19,8 @@ public class DocumentSelectionModel {
 	private String secondAspect;
 	private String modifier;
 	private String sign;
-	private String mv;
+	private String fd;
+	private String blocks;
 	private String dimension;
 	private String comment;
 
@@ -28,7 +29,7 @@ public class DocumentSelectionModel {
 	private static final Logger logger = LoggerFactory.getLogger(DocumentSelectionModel.class);
 
 	/**
-	 * Инициализирует пустую модель выделения.
+	 * Initializes an empty selection model.
 	 */
 	public DocumentSelectionModel() {
 		logger.trace("DocumentSelectionModel(): entering");
@@ -38,38 +39,38 @@ public class DocumentSelectionModel {
 	}
 
 	/**
-	 * @return пусто ли выделение
+	 * @return whether the allocation is empty
 	 */
 	public boolean isEmpty() {
 		return startOffset == endOffset;
 	}
 
 	/**
-	 * @return инициализирована ли в данный момент модель. {@code false} означает,
-	 * что сейчас происходит заполнение свойств модели.
+	 * @return whether the model is currently initialized. {@code false} means,
+	 * model properties are being filled in now.
 	 */
 	public boolean isInitialized() {
 		return initialized;
 	}
 
 	/**
-	 * Устанавливает флаг инициализированности выделения.
+	 * Sets the initialization flag of the selection.
 	 * 
-	 * @param initialized инициализировано ли выделение
+	 * @param initialized whether the selection is initialized
 	 */
 	public void setInitialized(boolean initialized) {
 		updateProperty("initialized", this.initialized, this.initialized = initialized);
 	}
 
 	/**
-	 * @return начальная позиция выделения в документе
+	 * @return initial selection position in the document
 	 */
 	public int getStartOffset() {
 		return startOffset;
 	}
 
 	/**
-	 * @param startOffset новое значение начальной позиции выделения в документе
+	 * @param startOffset new value of the initial position of the selection in the document
 	 */
 	public void setStartOffset(int startOffset) {
 		updateProperty("startOffset", this.startOffset, this.startOffset = startOffset);
@@ -106,7 +107,8 @@ public class DocumentSelectionModel {
 			setSecondAspect(null);
 			setModifier(null);
 			setSign(null);
-			setMV(null);
+			setFD(null);
+			setBlocks(null);
 			setDimension(null);
 			setComment("");
 		} else if (AData.DOUBT.equals(aspect)) {
@@ -159,17 +161,31 @@ public class DocumentSelectionModel {
 	}
 
 	/**
-	 * @return индикатор ментала/витала
+	 * @return indicator mental/vital or eval/sit
 	 */
-	public String getMV() {
-		return mv;
+	public String getFD() {
+		return fd;
 	}
 
 	/**
-	 * @param mv индикатор ментала/витала
+	 * @param fd indicator mental/vital or eval/sit
 	 */
-	public void setMV(String mv) {
-		updateProperty("MV", this.mv, this.mv = mv);
+	public void setFD(String fd) {
+		updateProperty("FD", this.fd, this.fd = fd);
+	}
+
+	/**
+	 * @return blocks
+	 */
+	public String getBlocks() {
+		return blocks;
+	}
+
+	/**
+	 * @param fd
+	 */
+	public void setBlocks(String blocks) {
+		updateProperty("Blocks", this.blocks, this.blocks = blocks);
 	}
 
 	/**
@@ -180,14 +196,14 @@ public class DocumentSelectionModel {
 	}
 
 	/**
-	 * @param dimension индикатор размерности
+	 * @param dimension indicator
 	 */
 	public void setDimension(String dimension) {
 		updateProperty("dimension", this.dimension, this.dimension = dimension);
 	}
 
 	/**
-	 * @return комментарий к выделению
+	 * @param comment comment on selection
 	 */
 	public String getComment() {
 		return comment;
@@ -201,23 +217,23 @@ public class DocumentSelectionModel {
 	}
 
 	/**
-	 * @return является данный выделенный блок пустым ({@code true}), или с ним связаны какие-либо
-	 * аналитические отметки ({@code false})
+	 * @return if the selected block is empty ({@code true}), or are there any
+	 * analytical marks ({@code false})
 	 */
 	public boolean isMarkupEmpty() {
 		return aspect == null;
 	}
 
 	/**
-	 * Собирает текущие данные из пометок в {@link AData} для хранения в документе.
+	 * Collects current data from labels in {@link AData} for storage in the document.
 	 *
-	 * @return текущее состояние пометок
+	 * @return the current state of the labels
 	 */
 	public AData getMarkupData() {
 		if (isMarkupEmpty()) {
 			return null;
 		}
-		return new AData(aspect, secondAspect, sign, dimension, mv, modifier, comment);
+		return new AData(aspect, secondAspect, sign, dimension, fd, blocks, modifier, comment);
 	}
 
 	/**
@@ -235,7 +251,8 @@ public class DocumentSelectionModel {
 			setSecondAspect(markupData.getSecondAspect());
 			setModifier(markupData.getModifier());
 			setSign(markupData.getSign());
-			setMV(markupData.getMV());
+			setFD(markupData.getFD());
+			setBlocks(markupData.getBlocks());
 			setDimension(markupData.getDimension());
 			setComment(markupData.getComment());
 		}

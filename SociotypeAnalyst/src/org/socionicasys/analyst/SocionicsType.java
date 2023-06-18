@@ -103,21 +103,21 @@ public final class SocionicsType {
 			predicates.add(dimensionPredicate);
 		}
 
-		String mv = data.getMV();
-		if (mv != null) {
-			Predicate mvPredicate;
-			if (mv.equals(AData.MENTAL)) {
-				mvPredicate = new MentalPredicate(baseAspect);
-			} else if (mv.equals(AData.VITAL)) {
-				mvPredicate = new VitalPredicate(baseAspect);
-			} else if (mv.equals(AData.SUPEREGO)) {
-				mvPredicate = new SuperegoPredicate(baseAspect);
-			} else if (mv.equals(AData.SUPERID)) {
-				mvPredicate = new SuperidPredicate(baseAspect);
+		String fd = data.getFD();
+		if (fd != null) {
+			Predicate fdPredicate;
+			if (fd.equals(AData.MENTAL)) {
+				fdPredicate = new MentalPredicate(baseAspect);
+			} else if (fd.equals(AData.VITAL)) {
+				fdPredicate = new VitalPredicate(baseAspect);
+			} else if (fd.equals(AData.EVALUATORY)) {
+				fdPredicate = new EvaluatoryPredicate(baseAspect);
+			} else if (fd.equals(AData.SITUATIONAL)) {
+				fdPredicate = new SituationalPredicate(baseAspect);
 			} else {
-				throw new IllegalArgumentException("Illegal mv in SocionicsType.matches()");
+				throw new IllegalArgumentException("Illegal FD in SocionicsType.matches()");
 			}
-			predicates.add(mvPredicate);
+			predicates.add(fdPredicate);
 		}
 
 		return predicates;

@@ -12,21 +12,21 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Панель «Витал/Ментал/Суперид/Суперэго».
+ * Function Dichotomies Panel
  */
-public final class MVPanel extends ActivePanel {
+public final class FDPanel extends ActivePanel {
 	private final Map<String, JRadioButton> buttons;
 	private final ButtonGroup buttonGroup;
 	private final JButton clearButton;
 
-	public MVPanel(DocumentSelectionModel selectionModel) {
+	public FDPanel(DocumentSelectionModel selectionModel) {
 		super(selectionModel);
 
 		buttons = new HashMap<String, JRadioButton>(4);
 		buttons.put(AData.VITAL, new JRadioButton("Vital"));
 		buttons.put(AData.MENTAL, new JRadioButton("Mental"));
-		buttons.put(AData.SUPERID, new JRadioButton("Super Id"));
-		buttons.put(AData.SUPEREGO, new JRadioButton("Super Ego"));
+		buttons.put(AData.EVALUATORY, new JRadioButton("Evaluatory"));
+		buttons.put(AData.SITUATIONAL, new JRadioButton("Situational"));
 
 		buttonGroup = new ButtonGroup();
 		for (Map.Entry<String, JRadioButton> entry : buttons.entrySet()) {
@@ -56,8 +56,8 @@ public final class MVPanel extends ActivePanel {
 		pp2.setLayout(new BoxLayout(pp2, BoxLayout.Y_AXIS));
 		pp1.add(buttons.get(AData.VITAL));
 		pp1.add(buttons.get(AData.MENTAL));
-		pp2.add(buttons.get(AData.SUPERID));
-		pp2.add(buttons.get(AData.SUPEREGO));
+		pp2.add(buttons.get(AData.EVALUATORY));
+		pp2.add(buttons.get(AData.SITUATIONAL));
 		pp.setLayout(new BoxLayout(pp, BoxLayout.X_AXIS));
 
 		pp.add(pp1);
@@ -67,19 +67,19 @@ public final class MVPanel extends ActivePanel {
 
 		add(pp);
 		add(clearButton);
-		setBorder(new TitledBorder("Mental/Vital Track"));
+		setBorder(new TitledBorder("Function Dichotomies"));
 
 		updateView();
 	}
 
 	/**
-	 * Обновляет элементы управления панели в соответствии со связанными данными из модели выделения.
+	 * Updates the panel controls according to the associated data from the selection model.
 	 */
 	@Override
 	protected void updateView() {
-		String mv = selectionModel.getMV();
+		String fd = selectionModel.getFD();
 		boolean panelEnabled = !selectionModel.isEmpty() && !selectionModel.isMarkupEmpty();
-		boolean selectionEnabled = panelEnabled && mv != null;
+		boolean selectionEnabled = panelEnabled && fd != null;
 
 		for (JRadioButton button : buttons.values()) {
 			button.setEnabled(panelEnabled);
@@ -87,7 +87,7 @@ public final class MVPanel extends ActivePanel {
 		clearButton.setEnabled(selectionEnabled);
 
 		if (selectionEnabled) {
-			JRadioButton selectedButton = buttons.get(mv);
+			JRadioButton selectedButton = buttons.get(fd);
 			buttonGroup.setSelected(selectedButton.getModel(), true);
 		} else {
 			buttonGroup.clearSelection();
@@ -101,9 +101,9 @@ public final class MVPanel extends ActivePanel {
 	protected void updateModel() {
 		ButtonModel selectedButtonModel = buttonGroup.getSelection();
 		if (selectedButtonModel == null) {
-			selectionModel.setMV(null);
+			selectionModel.setFD(null);
 		} else {
-			selectionModel.setMV(selectedButtonModel.getActionCommand());
+			selectionModel.setFD(selectedButtonModel.getActionCommand());
 		}
 	}
 }

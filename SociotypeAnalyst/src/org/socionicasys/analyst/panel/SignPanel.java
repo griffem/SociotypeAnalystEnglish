@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Панель знака («Плюс»/«Минус»).
+ * Sign Panel: Plus / Minus
  */
 public final class SignPanel extends ActivePanel {
 	private final Map<String, JRadioButton> buttons;
@@ -65,7 +65,7 @@ public final class SignPanel extends ActivePanel {
 	}
 
 	/**
-	 * Обновляет элементы управления панели в соответствии со связанными данными из модели выделения.
+	 * Updates the panel controls according to the associated data from the selection model.
 	 */
 	@Override
 	protected void updateView() {
@@ -88,7 +88,7 @@ public final class SignPanel extends ActivePanel {
 	}
 
 	/**
-	 * Обновляет модель в соответствии с измененными в панели данными.
+	 * Updates the model according to the changed data in the panel.
 	 */
 	@Override
 	protected void updateModel() {

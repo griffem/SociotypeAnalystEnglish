@@ -29,7 +29,7 @@ public class ATree extends JTree {
 	private static final String FUNCTIONS_LABEL = "Functions";
 	private static final String SIGNS_LABEL = "Signs";
 	private static final String DIMENSIONS_LABEL = "Dimensions";
-	private static final String MV_LABEL = "Mental/Vital";
+	private static final String FD_LABEL = "Func Dichotomies";
 	private static final String LOW_DIMENSION_LABEL = "Low-dimensionality";
 	private static final String HIGH_DIMENSION_LABEL = "High-dimensionality";
 	private static final String DIMENSION1_LABEL = "One-dimensionality";
@@ -96,8 +96,8 @@ public class ATree extends JTree {
 			predicateCounts.put(new LowDimensionPredicate(aspect), 0);
 			predicateCounts.put(new HighDimensionPredicate(aspect), 0);
 			predicateCounts.put(new IndividualityPredicate(aspect), 0);
-			predicateCounts.put(new SuperegoPredicate(aspect), 0);
-			predicateCounts.put(new SuperidPredicate(aspect), 0);
+			predicateCounts.put(new EvaluatoryPredicate(aspect), 0);
+			predicateCounts.put(new SituationalPredicate(aspect), 0);
 			predicateCounts.put(new VitalPredicate(aspect), 0);
 			predicateCounts.put(new MentalPredicate(aspect), 0);
 			for (Aspect secondAspect : ASPECTS) {
@@ -240,13 +240,13 @@ public class ATree extends JTree {
 			appendEndTreeNode(aspectDimensionsNode, new Dimension1Predicate(aspect));
 			appendEndTreeNode(aspectDimensionsNode, new IndividualityPredicate(aspect));
 
-			DefaultMutableTreeNode aspectMVsNode = new DefaultMutableTreeNode(MV_LABEL);
-			aspectNode.add(aspectMVsNode);
+			DefaultMutableTreeNode aspectFDsNode = new DefaultMutableTreeNode(FD_LABEL);
+			aspectNode.add(aspectFDsNode);
 
-			appendEndTreeNode(aspectMVsNode, new MentalPredicate(aspect));
-			appendEndTreeNode(aspectMVsNode, new VitalPredicate(aspect));
-			appendEndTreeNode(aspectMVsNode, new SuperegoPredicate(aspect));
-			appendEndTreeNode(aspectMVsNode, new SuperidPredicate(aspect));
+			appendEndTreeNode(aspectFDsNode, new MentalPredicate(aspect));
+			appendEndTreeNode(aspectFDsNode, new VitalPredicate(aspect));
+			appendEndTreeNode(aspectFDsNode, new EvaluatoryPredicate(aspect));
+			appendEndTreeNode(aspectFDsNode, new SituationalPredicate(aspect));
 		}
 
 
@@ -329,7 +329,7 @@ public class ATree extends JTree {
 		}
 
 		StringBuilder reportBuilder = new StringBuilder("<br/>" +
-				"<h2> Revealed parmeters of IM functions: </h2>" +
+				"<h2> Revealed parameters of IM functions: </h2>" +
 				"Each of the marked-up passages contains analysis of element-related contents and related parameters of information processing.  <br/>" +
 				"The table below summarizes distribution of the passages according to the parameters of the Model A.<br/><br/>" +
 				"<table title=\"function analysis\" border=2 width=\"80%\">" +
@@ -351,6 +351,22 @@ public class ATree extends JTree {
 		for (Aspect aspect : ASPECTS) {
 			reportBuilder.append(HTML_CELL_OPEN);
 			reportBuilder.append(predicateCounts.get(new VitalPredicate(aspect)));
+			reportBuilder.append(HTML_CELL_CLOSE);
+		}
+		reportBuilder.append(HTML_ROW_CLOSE);
+
+		createReportRow(reportBuilder, "Evaluatory");
+		for (Aspect aspect : ASPECTS) {
+			reportBuilder.append(HTML_CELL_OPEN);
+			reportBuilder.append(predicateCounts.get(new EvaluatoryPredicate(aspect)));
+			reportBuilder.append(HTML_CELL_CLOSE);
+		}
+		reportBuilder.append(HTML_ROW_CLOSE);
+
+		createReportRow(reportBuilder, "Situational");
+		for (Aspect aspect : ASPECTS) {
+			reportBuilder.append(HTML_CELL_OPEN);
+			reportBuilder.append(predicateCounts.get(new SituationalPredicate(aspect)));
 			reportBuilder.append(HTML_CELL_CLOSE);
 		}
 		reportBuilder.append(HTML_ROW_CLOSE);

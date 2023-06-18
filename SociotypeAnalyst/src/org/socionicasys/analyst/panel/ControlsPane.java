@@ -13,7 +13,7 @@ public class ControlsPane extends JToolBar {
 		super("Mark-up panel", JToolBar.VERTICAL);
 
 		SignPanel signPanel = new SignPanel(selectionModel);
-		MVPanel mvPanel = new MVPanel(selectionModel);
+		FDPanel fdPanel = new FDPanel(selectionModel);
 		DimensionPanel dimensionPanel = new DimensionPanel(selectionModel);
 		AspectPanel aspectPanel = new AspectPanel(selectionModel);
 
@@ -27,7 +27,7 @@ public class ControlsPane extends JToolBar {
 		container.add(aspectPanel);
 		container.add(signPanel);
 		container.add(dimensionPanel);
-		container.add(mvPanel);
+		container.add(fdPanel);
 		add(container);
 	}
 }

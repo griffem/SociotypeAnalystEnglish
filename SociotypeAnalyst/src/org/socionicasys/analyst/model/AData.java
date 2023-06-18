@@ -48,9 +48,15 @@ public class AData implements Serializable {
 
 	public static final String MENTAL = "Mental";
 	public static final String VITAL = "Vital";
-	public static final String SUPERID = "Super Id";
+	public static final String EVALUATORY = "Evaluatory";
+	public static final String SITUATIONAL = "Situational";
+	private static final List<String> VALID_FDS = Arrays.asList(MENTAL, VITAL, EVALUATORY, SITUATIONAL);
+
+	public static final String EGO = "Ego";
 	public static final String SUPEREGO = "Super Ego";
-	private static final List<String> VALID_MVS = Arrays.asList(MENTAL, VITAL, SUPERID, SUPEREGO);
+	public static final String SUPERID = "Super Id";
+	public static final String ID = "Id";
+	private static final List<String> VALID_BLOCKS = Arrays.asList(EGO, SUPEREGO, SUPERID, ID);
 
 	private static final Pattern PARSE_PATTERN = buildParsePattern();
 	private static final int ASPECT_GROUP = 1;
@@ -58,22 +64,25 @@ public class AData implements Serializable {
 	private static final int SECOND_ASPECT_GROUP = 3;
 	private static final int SIGN_GROUP = 4;
 	private static final int DIMENSION_GROUP = 5;
-	private static final int MV_GROUP = 6;
+	private static final int FD_GROUP = 6;
+	private static final int BLOCKS_GROUP = 7;
 
 	private final String secondAspect;
 	private final String modifier;
 	private final String aspect;
 	private final String sign;
-	private final String mv;
+	private final String fd;
+	private final String blocks;
 	private final String dimension;
 	private String comment;
 
-	public AData(String aspect, String secondAspect, String sign, String dimension, String mv, String modifier, String comment) {
+	public AData(String aspect, String secondAspect, String sign, String dimension, String fd, String blocks, String modifier, String comment) {
 		this.aspect = aspect;
 		this.secondAspect = secondAspect;
 		this.sign = sign;
 		this.dimension = dimension;
-		this.mv = mv;
+		this.fd = fd;
+		this.blocks = blocks;
 		this.modifier = modifier;
 		setComment(comment);
 	}
@@ -98,8 +107,12 @@ public class AData implements Serializable {
 		return dimension;
 	}
 
-	public String getMV() {
-		return mv;
+	public String getFD() {
+		return fd;
+	}
+
+	public String getBlocks() {
+		return blocks;
 	}
 
 	public void setComment(String comment) {
@@ -111,7 +124,7 @@ public class AData implements Serializable {
 	}
 
 	/**
-	 * @return {@code true} когда данные в отметке находятся в законченном состоянии.
+	 * @return {@code true} when the data in the mark is in the finished state.
 	 */
 	@SuppressWarnings("RedundantIfStatement")
 	public boolean isValid() {
@@ -131,7 +144,11 @@ public class AData implements Serializable {
 			return false;
 		}
 
-		if (mv != null && !VALID_MVS.contains(mv)) {
+		if (fd != null && !VALID_FDS.contains(fd)) {
+			return false;
+		}
+
+		if (blocks != null && !VALID_BLOCKS.contains(blocks)) {
 			return false;
 		}
 
@@ -167,8 +184,11 @@ public class AData implements Serializable {
 		if (dimension != null) {
 			builder.append(dimension).append(SEPARATOR);
 		}
-		if (mv != null) {
-			builder.append(mv);
+		if (fd != null) {
+			builder.append(fd).append(SEPARATOR);
+		}
+		if (blocks != null) {
+			builder.append(blocks);
 		}
 		return builder.toString();
 	}
@@ -188,7 +208,8 @@ public class AData implements Serializable {
 		String secondAspect = dataMatcher.group(SECOND_ASPECT_GROUP);
 		String sign = dataMatcher.group(SIGN_GROUP);
 		String dimension = dataMatcher.group(DIMENSION_GROUP);
-		String mv = dataMatcher.group(MV_GROUP);
+		String fd = dataMatcher.group(FD_GROUP);
+		String blocks = dataMatcher.group(BLOCKS_GROUP);
 
 		String modifier = null;
 		if (BLOCK_TOKEN.equals(modifierToken)) {
@@ -197,7 +218,7 @@ public class AData implements Serializable {
 			modifier = JUMP;
 		}
 
-		return new AData(aspect, secondAspect, sign, dimension, mv, modifier, null);
+		return new AData(aspect, secondAspect, sign, dimension, fd, blocks, modifier, null);
 	}
 
 	@Override
@@ -215,7 +236,8 @@ public class AData implements Serializable {
 			EqualsUtil.areEqual(modifier, data.modifier) &&
 			EqualsUtil.areEqual(dimension, data.dimension) &&
 			EqualsUtil.areEqual(sign, data.sign) &&
-			EqualsUtil.areEqual(mv, data.mv) &&
+			EqualsUtil.areEqual(fd, data.fd) &&
+			EqualsUtil.areEqual(blocks, data.blocks) &&
 			EqualsUtil.areEqual(comment, data.comment);
 	}
 
@@ -227,16 +249,19 @@ public class AData implements Serializable {
 		hashUtil.hash(modifier);
 		hashUtil.hash(dimension);
 		hashUtil.hash(sign);
-		hashUtil.hash(mv);
+		hashUtil.hash(fd);
+		hashUtil.hash(blocks);
 		hashUtil.hash(comment);
 		return hashUtil.getComputedHash();
 	}
 
 	/**
-	 * Формирует регулярное выражение для разбора строк в экземпляр {@code AData}.
+	 * Forms a regular expression to parse strings into a {@code AData} instance.
 	 *
-	 * @return сформированное регулярное выражение
+	 * @return generated regular expression
 	 */
+
+	 // FIXME
 	private static Pattern buildParsePattern() {
 		StringBuilder patternBuilder = new StringBuilder(" *(");
 		patternBuilder.append(joinRegexValues(VALID_ASPECTS));
@@ -249,17 +274,17 @@ public class AData implements Serializable {
 
 		patternBuilder.append("(?:(").append(joinRegexValues(VALID_DIMENSIONS)).append(");)?");
 
-		patternBuilder.append('(').append(joinRegexValues(VALID_MVS)).append(")?");
+		patternBuilder.append('(').append(joinRegexValues(VALID_FDS)).append(")?");
 
 		return Pattern.compile(patternBuilder.toString());
 	}
 
 	/**
-	 * Объединяет варианты из массива в строку, разделенную символами |
-	 * для создания регулярного выражения.
+	 * Combines variants from the array into a string separated by |
+	 * to create a regular expression.
 	 *
-	 * @param values массив значений
-	 * @return строка из значений через |
+	 * @param values array of values
+	 * @return string of values separated by |
 	 */
 	private static String joinRegexValues(List<String> values) {
 		StringBuilder join = new StringBuilder();

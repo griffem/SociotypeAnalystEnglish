@@ -479,7 +479,7 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 			res.append("color:#FF0000;");
 			unstyled = false;
 		}
-		if (data.getMV() != null) {
+		if (data.getFD() != null) {
 			res.append("background-color:#FFFFCC;");
 			unstyled = false;
 		}
