@@ -4,7 +4,7 @@ import java.awt.event.FocusEvent;
 import javax.swing.text.DefaultCaret;
 
 /**
- * Курсор, не скрывающий выделение при потере фокуса.
+ * Cursor that does not hide the selection when the focus is lost.
  */
 @SuppressWarnings("serial")
 public class HighlightCaret extends DefaultCaret {

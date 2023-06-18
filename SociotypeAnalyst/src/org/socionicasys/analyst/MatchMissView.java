@@ -53,7 +53,7 @@ public class MatchMissView extends JTree implements ADocumentChangeListener {
 			DefaultMutableTreeNode node = new DefaultMutableTreeNode();
 			rootNode.add(node);
 			float coefficient = matchMissModel.get(sociotype).getScaledCoefficient();
-			node.setUserObject(String.format("%1$s : %2$s %3$2.0f",
+			node.setUserObject(String.format("%1$s %2$s %3$2.0f",
 				sociotype.getAbbreviation(),
 				bar.substring(0, (int) (SCALE * coefficient + 1)),
 				PERCENT * coefficient
