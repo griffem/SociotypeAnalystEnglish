@@ -4,7 +4,7 @@ import org.socionicasys.analyst.types.Aspect;
 
 import java.util.Arrays;
 
-// Activates the predicate if the given aspect is Situational
+// Activates the predicate if the given aspect is evaluatory
 
 public class SituationalPredicate extends PositionPredicate {
 	public SituationalPredicate(Aspect aspect) {
