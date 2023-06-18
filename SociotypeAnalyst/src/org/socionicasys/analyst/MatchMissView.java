@@ -18,7 +18,7 @@ import javax.swing.tree.TreeSelectionModel;
  */
 public class MatchMissView extends JTree implements ADocumentChangeListener {
 	private static final Logger logger = LoggerFactory.getLogger(MatchMissView.class);
-	private static final Color TEXT_COLOR = new Color(224, 203, 29);
+	private static final Color TEXT_COLOR = new Color(141,181,242);
 	private static final int SCALE = 10;
 	private static final float PERCENT = 100.0f;
 

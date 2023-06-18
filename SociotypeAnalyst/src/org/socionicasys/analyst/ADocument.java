@@ -53,7 +53,7 @@ public class ADocument extends DefaultStyledDocument {
 		//style of general text
 		DEFAULT_STYLE = new SimpleAttributeSet();
 		DEFAULT_STYLE.addAttribute(StyleConstants.FontSize, 16);
-		DEFAULT_STYLE.addAttribute(StyleConstants.Foreground, Color.white);
+		DEFAULT_STYLE.addAttribute(StyleConstants.Foreground, Color.lightGray);
 		DEFAULT_STYLE.addAttribute(StyleConstants.FontFamily, Font.SANS_SERIF);
 		//style of a section with mark-up
 		DEFAULT_SECTION_STYLE = new SimpleAttributeSet();
