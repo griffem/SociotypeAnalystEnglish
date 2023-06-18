@@ -5,7 +5,7 @@ import org.socionicasys.analyst.service.ServiceContainer;
 import java.util.ResourceBundle;
 
 /**
- * Описывает информацию об отдельном аспекте.
+ * Describes information about an individual aspect.
  */
 public enum Aspect {
 	P,
@@ -18,7 +18,7 @@ public enum Aspect {
 	T;
 
 	/**
-	 * Название (аббревиатура) аспекта.
+	 * Aspect name (abbreviation).
 	 */
 	private final String abbreviation;
 

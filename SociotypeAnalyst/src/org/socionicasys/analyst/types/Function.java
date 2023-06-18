@@ -1,21 +1,21 @@
 package org.socionicasys.analyst.types;
 
 /**
- * Описывает отдельную функцию в модели А.
+ * Describes a separate function in Model A.
  */
 public class Function {
 	/**
-	 * Аспект функции.
+	 * Aspect of function.
 	 */
 	private final Aspect aspect;
 
 	/**
-	 * Расположении функции в модели: 1-8.
+	 * Function location in the model: 1-8.
 	 */
 	private final int position;
 
 	/**
-	 * Знак функции.
+	 * The function sign.
 	 */
 	private final Sign sign;
 
@@ -31,30 +31,30 @@ public class Function {
 	}
 
 	/**
-	 * @return аспект функции
+	 * @return aspect of the function
 	 */
 	public Aspect getAspect() {
 		return aspect;
 	}
 
 	/**
-	 * @return позиция функции в модели А (1-8)
+	 * @return function position in Model A (1-8)
 	 */
 	public int getPosition() {
 		return position;
 	}
 
 	/**
-	 * @return знак функции
+	 * @return function sign
 	 */
 	public Sign getSign() {
 		return sign;
 	}
 
 	/**
-	 * Рассчитывает размерность функции.
-	 * 1-я и 8-я функции 4-х мерные, 2-я и 7-я — 3-х мерные, 3-я и 6-я — 2-х мерные, 4-я и 5-я — одномерные.
-	 * @return размерность функции
+	 * Calculates the dimensionality of the function.
+	 * 1st and 8th functions are 4-dimensional, 2nd and 7th functions are 3-dimensional, 3rd and 6th functions are 2-dimensional, 4th and 5th functions are one-dimensional.
+	 * @return function dimensionality
 	 */
 	public int getDimension() {
 		if (isMental()) {
@@ -65,8 +65,8 @@ public class Function {
 	}
 
 	/**
-	 * Проверка функции на ментальность (1-4) или витальность (5-8).
-	 * @return является ли функция ментальной
+	 * Check the function for mental (1-4) or vital (5-8).
+	 * @return whether the function is mental
 	 */
 	public boolean isMental() {
 		return (position <= 4);
