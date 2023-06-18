@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "SociotypeAnalyst\\lib\\slf4j-api-1.7.2.jar",
+        "SociotypeAnalyst\\lib\\slf4j-simple-1.7.2.jar"
+    ]
+}

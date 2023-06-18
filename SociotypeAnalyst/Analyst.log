@@ -1,0 +1,1985 @@
+19:27:50.516 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+19:27:50.518 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:27:50.869 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+19:27:50.969 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo action
+19:27:50.973 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:28:05.520 [AWT-EventQueue-0]  DEBUG  o.s.a.DocumentSelectionConnector : Leaf object New Document is not an EndNodeObject, skipping navigation
+19:28:30.144 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+19:28:30.145 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:28:32.709 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1
+19:28:32.710 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:28:32.712 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:28:32.713 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+19:28:32.848 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2
+19:28:32.848 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:28:32.848 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:28:32.849 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+19:28:32.887 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3
+19:28:32.887 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:28:32.888 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:28:32.888 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+19:28:32.967 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4
+19:28:32.968 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:28:32.969 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:28:32.969 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+19:28:33.075 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 5
+19:28:33.075 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:28:33.075 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:28:33.075 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+19:28:33.094 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 6
+19:28:33.094 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:28:33.095 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:28:33.095 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+19:28:33.155 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7
+19:28:33.156 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:28:33.157 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:28:33.157 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+19:28:37.214 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7
+19:28:37.215 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:28:37.320 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6
+19:28:37.329 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 5
+19:28:37.346 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4
+19:28:37.353 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3
+19:28:37.369 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2
+19:28:37.382 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1
+19:28:37.391 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 0
+19:28:38.899 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+19:28:38.903 [AWT-EventQueue-0]  DEBUG  o.s.a.DocumentSelectionConnector : Leaf object New Document is not an EndNodeObject, skipping navigation
+19:28:38.917 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+19:28:38.918 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:28:38.918 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+19:28:38.919 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+19:28:38.919 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:28:38.921 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:28:38.922 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+19:42:15.097 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+19:42:15.100 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:42:15.526 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+19:42:15.586 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo action
+19:42:15.588 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:46:08.718 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+19:46:08.721 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+19:46:09.043 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+19:46:09.108 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo action
+19:46:09.110 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+19:46:24.784 [AWT-EventQueue-0]  DEBUG  o.s.a.DocumentSelectionConnector : Leaf object Discord is not an EndNodeObject, skipping navigation
+20:01:31.510 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+20:01:31.512 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:01:31.828 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:01:31.887 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo action
+20:01:31.888 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:01:46.850 [AWT-EventQueue-0]  DEBUG  o.s.a.DocumentSelectionConnector : Leaf object New Document is not an EndNodeObject, skipping navigation
+20:24:07.298 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+20:24:07.300 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:24:07.630 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:24:07.690 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo action
+20:24:07.692 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:24:40.945 [SwingWorker-pool-3-thread-1]  DEBUG  o.s.a.LegacyHtmlReader : doInBackground(): loading file C:\Users\Victor\Documents\Elhant_Analiz.htm
+20:24:40.979 [SwingWorker-pool-3-thread-1]  WARN   o.s.a.LegacyHtmlReader : Unknown document property 'Документ:'='Типирование анализ'
+20:24:40.980 [SwingWorker-pool-3-thread-1]  WARN   o.s.a.LegacyHtmlReader : Unknown document property 'Типируемый:'='Elhant'
+20:24:40.980 [SwingWorker-pool-3-thread-1]  WARN   o.s.a.LegacyHtmlReader : Unknown document property 'Эксперт:'='Эглит И.М.; Bellatrix_Lestrange; Grey Teardrop;; Николай "Grey Teardrop" Рыбак
+Ирина "Ёлочка" Эглит; Amely'
+20:24:40.980 [SwingWorker-pool-3-thread-1]  WARN   o.s.a.LegacyHtmlReader : Unknown document property 'Дата:'='08.08.2010 13:10:58'
+20:24:40.980 [SwingWorker-pool-3-thread-1]  WARN   o.s.a.LegacyHtmlReader : Unknown document property 'Комментарий:'='Тестирование программы ИА
+Сохранено версией:0.56'
+20:24:41.232 [SwingWorker-pool-3-thread-1]  DEBUG  o.s.a.LegacyHtmlReader : doInBackground(): loading finished
+20:24:41.270 [AWT-EventQueue-0]  ERROR  o.s.a.DocumentLoadListener : Error while loading document
+java.lang.IllegalArgumentException: Invalid markup data ' ЧИ;Витал'
+	at org.socionicasys.analyst.model.AData.parseAData(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.readDocument(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.doInBackground(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.doInBackground(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at javax.swing.SwingWorker$1.call(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_71]
+	at javax.swing.SwingWorker.run(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_71]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_71]
+20:25:43.862 [SwingWorker-pool-3-thread-2]  DEBUG  o.s.a.LegacyHtmlReader : doInBackground(): loading file C:\USER\SOSIONICASYS\ENG_PROTOCOLS\EIE_Verglas.htm
+20:25:43.950 [SwingWorker-pool-3-thread-2]  DEBUG  o.s.a.LegacyHtmlReader : doInBackground(): loading finished
+20:25:43.996 [AWT-EventQueue-0]  ERROR  o.s.a.DocumentLoadListener : Error while loading document
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[na:1.8.0_71]
+	at org.socionicasys.analyst.LegacyHtmlReader.parseDocumentProperties(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.readDocument(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.doInBackground(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.doInBackground(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at javax.swing.SwingWorker$1.call(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_71]
+	at javax.swing.SwingWorker.run(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_71]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_71]
+20:26:54.339 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+20:26:54.339 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:26:55.980 [AWT-EventQueue-0]  DEBUG  o.s.a.DocumentTransferHandler : ADocumentFragment flavor not supported, delegating to parent
+20:26:56.014 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 17761
+20:26:56.014 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:26:56.019 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:26:56.019 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+20:27:00.629 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 477
+20:27:00.629 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:02.480 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+20:27:02.480 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:02.626 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1
+20:27:02.642 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2
+20:27:02.653 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3
+20:27:02.659 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 5
+20:27:02.665 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6
+20:27:02.673 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 8
+20:27:02.681 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 9
+20:27:02.687 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 0
+20:27:02.711 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 21
+20:27:02.719 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 24
+20:27:02.728 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 28
+20:27:02.736 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 32
+20:27:02.742 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 34
+20:27:02.750 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 37
+20:27:02.758 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 40
+20:27:02.766 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 43
+20:27:02.774 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 45
+20:27:02.782 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 46
+20:27:02.790 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 49
+20:27:02.796 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 50
+20:27:02.804 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 51
+20:27:02.812 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 52
+20:27:02.820 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 53
+20:27:02.828 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 55
+20:27:02.836 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 56
+20:27:02.844 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 57
+20:27:02.858 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 58
+20:27:02.866 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 59
+20:27:02.874 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 60
+20:27:02.890 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 61
+20:27:05.488 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:05.488 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:27:06.702 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 61
+20:27:06.703 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:08.015 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 62
+20:27:08.015 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:08.016 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:08.017 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+20:27:13.148 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 67
+20:27:13.148 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:13.309 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 66
+20:27:13.333 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 65
+20:27:13.347 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 64
+20:27:13.363 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 63
+20:27:14.631 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:14.641 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:14.643 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:14.643 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+20:27:14.643 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 63
+20:27:14.643 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:14.645 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:14.646 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:16.705 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 444
+20:27:16.705 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:16.774 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 445
+20:27:16.936 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 446
+20:27:16.961 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 447
+20:27:17.834 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:17.882 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:17.883 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:17.884 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:17.884 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 444
+20:27:17.884 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:17.890 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:17.890 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:19.122 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 444
+20:27:19.122 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:19.276 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 443
+20:27:19.291 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 442
+20:27:19.317 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 357
+20:27:19.328 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 355
+20:27:19.331 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 353
+20:27:19.337 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 271
+20:27:19.345 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 268
+20:27:19.353 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 264
+20:27:19.361 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 260
+20:27:19.369 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 175
+20:27:19.377 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 170
+20:27:19.383 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 87
+20:27:19.391 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 82
+20:27:19.399 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 79
+20:27:19.408 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 62
+20:27:19.462 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 0
+20:27:19.866 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 62
+20:27:20.068 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 63
+20:27:22.120 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:22.122 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:22.123 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel pasting of the fragment of analysis
+20:27:24.475 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:24.478 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:24.479 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:27:25.893 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:25.897 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:25.897 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:27:26.310 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 769
+20:27:26.311 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:28.208 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 447
+20:27:28.209 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:28.379 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 446
+20:27:28.393 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 445
+20:27:29.359 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:29.371 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:29.373 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:29.374 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:27:29.374 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 445
+20:27:29.374 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:29.378 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:29.379 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:32.938 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:32.956 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:32.958 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:32.958 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:32.959 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 445
+20:27:32.959 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:32.959 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:32.959 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:35.315 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 578
+20:27:35.315 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:35.392 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 579
+20:27:35.554 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 580
+20:27:35.570 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 581
+20:27:36.356 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:36.366 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:36.368 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:36.368 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:36.368 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 578
+20:27:36.369 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:36.372 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:36.372 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:40.435 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 715
+20:27:40.435 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:40.549 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 714
+20:27:40.573 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 713
+20:27:40.587 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 712
+20:27:41.548 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:41.554 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:41.556 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:41.556 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:41.556 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 712
+20:27:41.556 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:41.558 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:41.558 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:43.114 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 926
+20:27:43.114 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:43.207 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 927
+20:27:43.361 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 967
+20:27:45.338 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 928
+20:27:45.338 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:46.289 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:46.306 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:46.309 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:46.309 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:46.310 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 927
+20:27:46.310 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:46.310 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:46.311 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:46.468 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:46.498 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:46.499 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:46.500 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:46.500 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 926
+20:27:46.500 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:46.500 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:46.500 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:46.784 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:46.800 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:46.803 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:46.803 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:46.804 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 925
+20:27:46.804 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:46.804 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:46.805 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:27:47.840 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 925
+20:27:47.840 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:47.933 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 922
+20:27:47.941 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 918
+20:27:47.947 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 839
+20:27:47.955 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 837
+20:27:47.963 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 834
+20:27:47.971 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 831
+20:27:47.979 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 827
+20:27:47.987 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 825
+20:27:47.995 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 822
+20:27:48.003 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 821
+20:27:48.011 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 818
+20:27:48.017 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 816
+20:27:48.025 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 815
+20:27:48.033 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 814
+20:27:48.057 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 813
+20:27:48.087 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 812
+20:27:48.111 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 811
+20:27:48.119 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 810
+20:27:48.133 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 809
+20:27:48.141 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 808
+20:27:48.149 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 807
+20:27:48.174 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 806
+20:27:48.175 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 721
+20:27:48.189 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 720
+20:27:48.195 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 719
+20:27:48.203 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 718
+20:27:48.218 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 717
+20:27:48.257 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 716
+20:27:48.389 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 715
+20:27:48.613 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 714
+20:27:48.661 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 713
+20:27:53.376 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 712
+20:27:55.110 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:55.112 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:55.112 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel pasting of the fragment of analysis
+20:27:56.223 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:27:56.232 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:27:56.233 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:27:56.873 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1233
+20:27:56.873 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:58.049 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 972
+20:27:58.049 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:27:58.157 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 973
+20:27:58.165 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 974
+20:27:58.181 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 975
+20:27:58.189 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 976
+20:27:58.195 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 977
+20:27:58.205 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1046
+20:27:58.211 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1047
+20:27:58.219 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1048
+20:27:58.227 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1049
+20:27:58.235 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1050
+20:27:58.243 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1118
+20:27:58.251 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1119
+20:27:58.259 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1120
+20:27:58.273 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1121
+20:27:58.289 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1122
+20:27:58.359 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1123
+20:27:58.413 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1124
+20:27:58.475 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1191
+20:27:58.505 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1192
+20:27:58.677 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1193
+20:27:58.777 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1194
+20:27:59.435 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1195
+20:27:59.451 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1216
+20:27:59.691 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1217
+20:28:02.649 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1697
+20:28:02.649 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:02.657 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1698
+20:28:04.477 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1715
+20:28:04.477 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:04.633 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1714
+20:28:04.641 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1713
+20:28:04.649 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1712
+20:28:04.663 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1711
+20:28:04.679 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1710
+20:28:04.687 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1708
+20:28:04.695 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1707
+20:28:04.703 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1706
+20:28:04.711 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1705
+20:28:04.719 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1704
+20:28:04.725 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1703
+20:28:04.734 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1702
+20:28:04.741 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1701
+20:28:04.749 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1700
+20:28:04.757 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1698
+20:28:04.765 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1697
+20:28:04.773 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1695
+20:28:04.779 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1694
+20:28:04.880 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1771
+20:28:05.688 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1694
+20:28:07.393 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:07.405 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:07.408 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:07.408 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:28:07.408 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1694
+20:28:07.408 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:07.411 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:07.411 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:09.468 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2089
+20:28:09.469 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:09.568 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2015
+20:28:09.576 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2014
+20:28:09.584 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2013
+20:28:09.592 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2011
+20:28:09.600 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2010
+20:28:09.608 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1931
+20:28:09.717 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1776
+20:28:09.818 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1694
+20:28:10.020 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1693
+20:28:11.369 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:11.377 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:11.384 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:11.384 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:11.385 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1693
+20:28:11.385 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:11.387 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:11.387 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:17.834 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3397
+20:28:17.835 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:17.909 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3345
+20:28:17.933 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3310
+20:28:17.971 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3300
+20:28:17.979 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3298
+20:28:17.987 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3294
+20:28:17.995 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3293
+20:28:18.003 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3291
+20:28:18.011 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3290
+20:28:18.019 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3289
+20:28:18.025 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3288
+20:28:18.041 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3208
+20:28:18.049 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3207
+20:28:18.065 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3206
+20:28:18.081 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3205
+20:28:18.095 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3204
+20:28:18.111 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3203
+20:28:18.127 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3202
+20:28:18.149 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3201
+20:28:18.157 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3166
+20:28:18.173 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3165
+20:28:18.189 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3164
+20:28:18.306 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3163
+20:28:19.169 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:19.180 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:19.183 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:19.183 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:19.183 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3163
+20:28:19.184 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:19.188 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:19.188 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:20.588 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:20.603 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:20.605 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:20.605 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:20.605 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3163
+20:28:20.606 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:20.606 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:20.606 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:20.763 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:20.772 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:20.774 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:20.775 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:20.775 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3163
+20:28:20.775 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:20.775 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:20.775 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:22.676 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3217
+20:28:22.676 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:22.775 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3216
+20:28:22.783 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3214
+20:28:22.791 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3213
+20:28:22.799 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3211
+20:28:22.825 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3209
+20:28:22.825 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3204
+20:28:22.828 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3202
+20:28:22.837 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3200
+20:28:22.845 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3198
+20:28:22.852 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3196
+20:28:22.860 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3194
+20:28:22.866 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3193
+20:28:22.874 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3192
+20:28:22.882 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3191
+20:28:22.891 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3190
+20:28:22.899 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3189
+20:28:22.915 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3187
+20:28:22.921 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3186
+20:28:22.931 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3185
+20:28:22.937 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3184
+20:28:22.945 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3182
+20:28:22.953 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3180
+20:28:22.961 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3179
+20:28:22.969 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3177
+20:28:22.977 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3175
+20:28:22.985 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3174
+20:28:22.991 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3172
+20:28:22.999 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3171
+20:28:23.007 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3170
+20:28:23.015 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3168
+20:28:23.023 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3167
+20:28:23.031 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3165
+20:28:23.039 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3164
+20:28:23.045 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3163
+20:28:23.162 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3161
+20:28:25.776 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:25.776 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:28:26.664 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7141
+20:28:26.664 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:28.656 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 5972
+20:28:28.657 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:28.817 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 5973
+20:28:28.825 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6056
+20:28:28.833 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6058
+20:28:28.841 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6059
+20:28:28.849 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6063
+20:28:28.857 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6240
+20:28:28.863 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6244
+20:28:28.871 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6248
+20:28:28.879 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6550
+20:28:28.887 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6555
+20:28:28.895 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6735
+20:28:28.903 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6740
+20:28:28.911 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7065
+20:28:28.917 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7068
+20:28:28.925 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7071
+20:28:28.933 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7073
+20:28:28.941 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7075
+20:28:28.949 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7140
+20:28:29.129 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7141
+20:28:29.432 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7140
+20:28:32.740 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:32.740 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:28:33.412 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7269
+20:28:33.413 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:34.876 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7139
+20:28:34.876 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:35.185 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7141
+20:28:35.247 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7146
+20:28:35.261 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7147
+20:28:35.339 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7148
+20:28:35.401 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7149
+20:28:35.433 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7256
+20:28:35.525 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7257
+20:28:35.549 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7258
+20:28:35.571 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7259
+20:28:35.595 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7260
+20:28:35.619 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7261
+20:28:35.633 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7286
+20:28:35.781 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7305
+20:28:35.797 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7306
+20:28:35.811 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7393
+20:28:35.819 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7394
+20:28:35.835 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7416
+20:28:35.859 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7417
+20:28:35.897 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7482
+20:28:36.935 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:36.948 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:36.951 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:36.951 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:28:36.951 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7139
+20:28:36.951 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:36.954 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:36.955 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:40.213 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7141
+20:28:40.214 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:40.375 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7142
+20:28:40.383 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7143
+20:28:40.391 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7147
+20:28:40.397 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7151
+20:28:40.404 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7140
+20:28:40.450 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7169
+20:28:40.461 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7170
+20:28:40.467 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7172
+20:28:40.475 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7173
+20:28:40.483 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7175
+20:28:40.496 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7176
+20:28:40.499 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7177
+20:28:40.507 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7178
+20:28:40.514 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7179
+20:28:40.520 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7180
+20:28:40.544 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7181
+20:28:40.552 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7182
+20:28:40.561 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7183
+20:28:40.569 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7184
+20:28:40.575 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7185
+20:28:40.583 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7186
+20:28:40.591 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7140
+20:28:41.219 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7201
+20:28:43.671 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:43.671 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:28:45.589 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 61
+20:28:45.589 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:46.374 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:46.388 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:46.391 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:46.391 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:28:46.392 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 61
+20:28:46.392 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:46.393 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:46.393 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:49.818 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7204
+20:28:49.818 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:49.981 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7203
+20:28:49.989 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7202
+20:28:49.997 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7201
+20:28:50.889 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:50.894 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:50.896 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:50.896 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:50.896 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7201
+20:28:50.896 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:50.898 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:50.899 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:51.102 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:51.115 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:28:51.116 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:51.116 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:51.116 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7201
+20:28:51.116 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:51.116 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:28:51.116 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:28:53.117 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7238
+20:28:53.118 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:28:56.259 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 8946
+20:28:56.259 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:02.276 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7454
+20:29:02.277 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:02.437 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7455
+20:29:02.468 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7456
+20:29:02.483 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7457
+20:29:02.491 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7458
+20:29:03.353 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:03.357 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:03.358 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:03.358 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:03.358 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 7454
+20:29:03.358 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:03.360 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:03.360 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:20.610 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3220
+20:29:20.610 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:20.804 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3219
+20:29:20.849 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3218
+20:29:20.873 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3217
+20:29:21.890 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:21.908 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:21.926 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:21.926 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:21.926 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3217
+20:29:21.926 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:21.934 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:21.934 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:23.339 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3662
+20:29:23.339 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:23.391 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3661
+20:29:23.421 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3660
+20:29:23.437 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3659
+20:29:23.445 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3658
+20:29:23.554 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3596
+20:29:24.886 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4641
+20:29:24.886 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:25.011 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4431
+20:29:26.043 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3663
+20:29:26.044 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:26.158 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3661
+20:29:26.165 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3660
+20:29:26.181 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3659
+20:29:26.187 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3658
+20:29:27.557 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:27.571 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:27.573 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:27.573 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:27.573 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3658
+20:29:27.573 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:27.576 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:27.576 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:30.115 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3329
+20:29:30.115 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:30.979 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:30.991 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:30.994 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:30.994 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:30.994 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3329
+20:29:30.994 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:30.995 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:30.995 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:31.165 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:31.171 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:31.177 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:31.178 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:31.178 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3329
+20:29:31.178 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:31.178 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:31.178 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:31.459 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:31.475 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:31.480 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:31.480 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:31.480 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3329
+20:29:31.480 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:31.481 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:31.481 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:31.833 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:31.846 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:31.849 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:31.849 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:31.849 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3329
+20:29:31.850 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:31.850 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:31.850 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:38.204 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3439
+20:29:38.204 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:39.075 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.084 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.086 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.086 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.086 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3438
+20:29:39.086 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:39.086 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.087 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.228 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.238 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.240 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.240 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.240 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3437
+20:29:39.240 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:39.240 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.240 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.372 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.376 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.377 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.377 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.377 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3436
+20:29:39.377 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:39.377 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.378 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.510 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.519 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.523 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.523 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.524 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3435
+20:29:39.524 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:39.525 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.525 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.666 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.678 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.681 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.682 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.682 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3434
+20:29:39.682 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:39.682 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.682 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.824 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.834 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.836 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.836 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.836 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3433
+20:29:39.836 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:39.836 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.836 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.977 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.987 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:39.989 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.989 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:39.989 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3432
+20:29:39.989 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:39.989 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:39.989 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:40.151 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:40.178 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:40.180 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:40.180 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:40.180 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3431
+20:29:40.180 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:40.181 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:40.181 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:40.359 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:40.373 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:40.375 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:40.375 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:40.375 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3430
+20:29:40.375 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:40.376 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:40.376 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:41.582 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3644
+20:29:41.583 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:44.091 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3357
+20:29:44.091 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:45.102 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3356
+20:29:45.102 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:45.679 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:45.686 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:45.686 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:45.687 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:45.687 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3356
+20:29:45.687 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:45.687 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:45.687 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:45.854 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:45.865 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:45.868 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:45.868 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:45.869 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3356
+20:29:45.869 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:45.869 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:45.869 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:46.012 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:46.026 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:46.028 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:46.029 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:46.029 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3356
+20:29:46.029 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:46.031 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:46.033 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:46.201 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:46.212 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:46.215 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:46.215 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:46.216 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3356
+20:29:46.216 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:46.216 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:46.216 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:47.694 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4035
+20:29:47.694 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:48.640 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3694
+20:29:48.640 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:53.604 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3640
+20:29:53.604 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:55.782 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4620
+20:29:55.782 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:55.965 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4623
+20:29:55.973 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4624
+20:29:56.005 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4625
+20:29:56.019 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4634
+20:29:56.051 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4635
+20:29:56.121 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4636
+20:29:56.617 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4647
+20:29:56.633 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4648
+20:29:56.920 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4649
+20:29:56.927 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4650
+20:29:56.935 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4651
+20:29:56.941 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4652
+20:29:56.949 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4723
+20:29:56.957 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4726
+20:29:56.965 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4729
+20:29:56.973 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4732
+20:29:56.981 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4734
+20:29:56.989 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4739
+20:29:56.995 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4742
+20:29:57.005 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4745
+20:29:57.011 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4747
+20:29:57.019 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4750
+20:29:57.027 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4753
+20:29:57.035 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4756
+20:29:57.043 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4791
+20:29:57.065 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4767
+20:29:57.073 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4770
+20:29:57.081 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4791
+20:29:57.151 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4790
+20:29:58.425 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:58.447 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:58.449 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:58.449 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:58.449 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4620
+20:29:58.450 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:58.453 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:58.453 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:59.882 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:59.915 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:29:59.928 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:59.928 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:29:59.928 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4620
+20:29:59.928 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:29:59.929 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:29:59.929 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:00.249 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:00.252 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:00.252 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:00.252 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:00.253 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4620
+20:30:00.253 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:00.253 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:00.253 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:02.304 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4669
+20:30:02.304 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:02.427 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4668
+20:30:02.435 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4667
+20:30:02.441 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4663
+20:30:02.449 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4657
+20:30:02.457 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4652
+20:30:02.485 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4635
+20:30:02.488 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4628
+20:30:02.495 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4619
+20:30:02.505 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4618
+20:30:02.606 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4389
+20:30:03.818 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4618
+20:30:04.424 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4620
+20:30:07.302 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:07.302 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:30:10.505 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4670
+20:30:10.505 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:10.706 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4671
+20:30:10.955 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4672
+20:30:11.954 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:11.965 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:11.966 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:11.966 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:30:11.966 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4670
+20:30:11.966 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:11.968 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:11.968 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:12.150 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:12.157 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:12.159 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:12.159 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:12.160 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4670
+20:30:12.160 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:12.160 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:12.160 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:12.655 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:12.663 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:12.665 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:12.665 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:12.665 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4670
+20:30:12.665 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:12.665 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:12.665 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:15.688 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4812
+20:30:15.688 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:15.711 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4813
+20:30:17.245 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:17.253 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:17.255 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:17.255 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:17.256 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4812
+20:30:17.256 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:17.258 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:17.258 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:17.392 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:17.404 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:17.406 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:17.406 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:17.406 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4812
+20:30:17.406 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:17.407 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:17.407 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:17.758 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:17.769 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:17.772 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:17.772 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:17.772 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4812
+20:30:17.773 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:17.773 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:17.773 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:18.093 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:18.100 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:18.102 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:18.102 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:18.102 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4812
+20:30:18.102 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:18.103 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:18.103 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:22.667 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4918
+20:30:22.668 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:22.936 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4917
+20:30:22.976 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4916
+20:30:22.998 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4915
+20:30:23.014 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4914
+20:30:23.023 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4913
+20:30:23.038 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4912
+20:30:23.060 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4911
+20:30:23.333 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4910
+20:30:23.370 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4909
+20:30:24.438 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:24.452 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:24.453 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:24.453 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:24.453 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4909
+20:30:24.453 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:24.455 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:24.455 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:25.563 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4909
+20:30:25.563 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:25.950 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 5080
+20:30:26.120 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 5079
+20:30:26.158 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 5320
+20:30:26.214 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 5490
+20:30:26.260 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 5710
+20:30:26.306 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 5756
+20:30:26.338 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 5805
+20:30:26.439 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6058
+20:30:26.540 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6532
+20:30:26.641 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6924
+20:30:26.742 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 6973
+20:30:26.843 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7294
+20:30:26.944 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 7891
+20:30:27.045 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 8535
+20:30:27.146 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 8812
+20:30:27.247 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 9843
+20:30:27.348 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 10683
+20:30:27.449 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 11827
+20:30:27.550 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 12551
+20:30:27.651 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 13167
+20:30:27.752 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 13810
+20:30:27.853 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 14467
+20:30:27.954 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 15639
+20:30:28.055 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 16524
+20:30:29.359 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:29.363 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:30:29.369 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:29.369 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:29.369 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4909
+20:30:29.369 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:29.371 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:29.371 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:37.335 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3916
+20:30:37.336 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:37.520 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3917
+20:30:37.536 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4233
+20:30:37.612 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4234
+20:30:37.652 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4235
+20:30:37.668 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4236
+20:30:37.682 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4393
+20:30:37.698 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4394
+20:30:38.279 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4395
+20:30:38.287 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4397
+20:30:38.295 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4400
+20:30:38.303 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4248
+20:30:38.311 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4254
+20:30:38.319 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4260
+20:30:38.327 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4266
+20:30:38.335 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4273
+20:30:38.343 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4280
+20:30:38.350 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3971
+20:30:38.357 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3978
+20:30:38.364 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3985
+20:30:38.372 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3988
+20:30:38.380 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3992
+20:30:38.388 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3995
+20:30:38.396 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3997
+20:30:38.405 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4000
+20:30:38.410 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4001
+20:30:38.418 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4003
+20:30:38.426 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4005
+20:30:38.434 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4006
+20:30:38.442 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4007
+20:30:38.450 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4008
+20:30:38.457 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4009
+20:30:38.464 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4010
+20:30:38.472 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4011
+20:30:38.480 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4012
+20:30:38.488 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4013
+20:30:38.496 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4014
+20:30:38.505 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4016
+20:30:38.512 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4017
+20:30:38.520 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4019
+20:30:38.526 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4020
+20:30:38.534 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4021
+20:30:38.550 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4022
+20:30:38.580 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4023
+20:30:38.620 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4024
+20:30:38.644 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4025
+20:30:38.658 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4026
+20:30:38.666 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4027
+20:30:38.675 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4342
+20:30:38.682 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4343
+20:30:38.791 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4349
+20:30:38.892 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4355
+20:30:38.993 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4519
+20:30:39.093 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4520
+20:30:39.194 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4521
+20:30:39.295 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4522
+20:30:39.396 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4523
+20:30:39.497 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4524
+20:30:39.598 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4550
+20:30:39.699 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4619
+20:30:39.800 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4540
+20:30:39.901 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4567
+20:30:40.002 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4594
+20:30:40.103 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4617
+20:30:44.355 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:30:44.355 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:30:44.755 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3161
+20:30:44.755 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:49.956 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4617
+20:30:49.956 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:49.957 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo style change
+20:30:49.957 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:30:53.919 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4388
+20:30:53.920 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:30:54.040 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4387
+20:30:54.048 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4386
+20:30:54.056 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4385
+20:30:54.064 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4384
+20:30:54.072 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4383
+20:30:54.080 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4381
+20:30:54.088 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4380
+20:30:54.096 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4378
+20:30:54.104 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4377
+20:30:54.110 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4376
+20:30:54.118 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4374
+20:30:54.126 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4372
+20:30:54.134 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4370
+20:30:54.142 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4368
+20:30:54.150 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4366
+20:30:54.158 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4364
+20:30:54.164 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4362
+20:30:54.172 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4360
+20:30:54.180 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4357
+20:30:54.189 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4355
+20:30:54.197 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4352
+20:30:54.205 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4350
+20:30:54.213 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4346
+20:30:54.221 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4344
+20:30:54.229 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4342
+20:30:54.235 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4340
+20:30:54.243 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4338
+20:30:54.250 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4336
+20:30:54.259 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4334
+20:30:54.266 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4333
+20:30:54.274 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4331
+20:30:54.282 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4330
+20:30:54.288 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4328
+20:30:54.296 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4326
+20:30:54.304 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4323
+20:30:54.312 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4321
+20:30:54.320 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4319
+20:30:54.328 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4317
+20:30:54.337 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4316
+20:30:54.344 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4315
+20:30:54.352 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4313
+20:30:54.358 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4311
+20:30:54.366 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4310
+20:30:54.374 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4308
+20:30:54.382 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4305
+20:30:54.390 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4302
+20:30:54.398 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4300
+20:30:54.406 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4298
+20:30:54.412 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4296
+20:30:54.420 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4293
+20:30:54.428 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4290
+20:30:54.436 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4287
+20:30:54.444 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3915
+20:30:54.460 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3913
+20:30:54.561 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3667
+20:30:54.662 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3217
+20:30:55.166 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3916
+20:30:55.368 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4389
+20:30:56.753 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4427
+20:30:56.754 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:00.319 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4617
+20:31:00.319 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:04.160 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3869
+20:31:04.160 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:04.507 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3868
+20:31:04.523 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3867
+20:31:04.833 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3866
+20:31:04.903 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3865
+20:31:05.965 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:31:05.975 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:31:05.977 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:31:05.977 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:31:05.979 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3865
+20:31:05.979 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:05.982 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:31:05.982 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:31:07.544 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4590
+20:31:07.544 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:09.297 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4613
+20:31:09.297 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:12.789 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4612
+20:31:12.790 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:13.024 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4611
+20:31:13.037 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4610
+20:31:13.050 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4609
+20:31:13.058 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4608
+20:31:13.066 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4615
+20:31:13.695 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4440
+20:31:13.701 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4439
+20:31:13.724 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4438
+20:31:13.740 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4437
+20:31:13.754 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4436
+20:31:13.764 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4435
+20:31:13.778 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4434
+20:31:13.818 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4433
+20:31:13.840 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3960
+20:31:13.872 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3959
+20:31:13.887 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3958
+20:31:13.911 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3957
+20:31:13.926 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3904
+20:31:13.934 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3903
+20:31:13.988 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3902
+20:31:14.010 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3901
+20:31:14.026 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3900
+20:31:14.042 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3899
+20:31:14.050 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3898
+20:31:14.058 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3897
+20:31:14.066 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3895
+20:31:14.072 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3894
+20:31:14.084 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3893
+20:31:14.088 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3891
+20:31:14.096 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3890
+20:31:14.104 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3889
+20:31:14.112 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3888
+20:31:14.120 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3886
+20:31:14.126 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3885
+20:31:14.134 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3884
+20:31:14.142 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3883
+20:31:14.150 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3882
+20:31:14.158 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3881
+20:31:14.166 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3880
+20:31:14.182 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3879
+20:31:14.204 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3878
+20:31:14.307 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3926
+20:31:14.320 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3925
+20:31:14.374 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3924
+20:31:14.398 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3923
+20:31:14.422 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3922
+20:31:14.444 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3921
+20:31:14.545 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3919
+20:31:14.646 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3916
+20:31:14.747 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3914
+20:31:14.848 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3912
+20:31:14.949 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3866
+20:31:15.050 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3912
+20:31:18.404 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:31:18.405 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:31:19.130 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4426
+20:31:19.130 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:21.278 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3941
+20:31:21.278 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:24.446 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3265
+20:31:24.446 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:25.325 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3266
+20:31:25.326 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:25.833 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3267
+20:31:25.834 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:25.866 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3268
+20:31:25.866 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:25.900 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3269
+20:31:25.900 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:25.935 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3270
+20:31:25.935 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:25.969 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3271
+20:31:25.969 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:26.004 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3272
+20:31:26.005 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:26.038 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3273
+20:31:26.038 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:26.073 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3274
+20:31:26.073 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:26.107 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3275
+20:31:26.107 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:26.143 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3276
+20:31:26.143 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:26.176 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3277
+20:31:26.176 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:31.301 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3217
+20:31:31.301 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:31.432 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3220
+20:31:31.440 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3222
+20:31:31.448 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3224
+20:31:31.454 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3226
+20:31:31.462 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3654
+20:31:31.470 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3656
+20:31:31.478 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3660
+20:31:31.486 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3664
+20:31:31.494 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3666
+20:31:31.502 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3670
+20:31:31.508 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3674
+20:31:31.516 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3679
+20:31:31.524 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3897
+20:31:31.532 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3899
+20:31:31.540 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3901
+20:31:31.548 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3904
+20:31:31.556 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3906
+20:31:31.564 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3907
+20:31:31.572 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3909
+20:31:31.578 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3911
+20:31:31.648 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3975
+20:31:31.656 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3976
+20:31:31.665 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3978
+20:31:31.672 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3980
+20:31:31.680 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3981
+20:31:31.686 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3982
+20:31:31.696 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3983
+20:31:31.702 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3984
+20:31:31.726 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3985
+20:31:31.788 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3986
+20:31:31.804 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3987
+20:31:31.850 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3988
+20:31:31.936 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3989
+20:31:31.950 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3911
+20:31:32.492 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3740
+20:31:32.532 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3741
+20:31:32.554 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3742
+20:31:32.562 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3322
+20:31:32.570 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3323
+20:31:32.578 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3324
+20:31:32.586 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3325
+20:31:32.594 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3326
+20:31:32.600 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3327
+20:31:32.616 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3329
+20:31:32.624 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3330
+20:31:32.632 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3331
+20:31:32.640 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3332
+20:31:32.648 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3334
+20:31:32.656 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3335
+20:31:32.664 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3338
+20:31:32.670 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3759
+20:31:32.678 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3761
+20:31:32.686 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3763
+20:31:32.694 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3766
+20:31:32.702 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3768
+20:31:32.803 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3782
+20:31:32.904 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3796
+20:31:33.005 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3812
+20:31:33.106 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3827
+20:31:33.207 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3843
+20:31:33.308 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3859
+20:31:33.409 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3865
+20:31:34.117 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3456
+20:31:34.217 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3461
+20:31:34.318 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3466
+20:31:34.419 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3865
+20:31:34.608 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3911
+20:31:35.282 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3816
+20:31:35.312 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3817
+20:31:35.444 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3818
+20:31:35.530 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3819
+20:31:35.684 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3820
+20:31:35.730 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3821
+20:31:35.746 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3822
+20:31:35.770 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3823
+20:31:35.784 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3824
+20:31:35.808 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3825
+20:31:35.832 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3826
+20:31:35.939 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3828
+20:31:36.040 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3833
+20:31:36.141 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3837
+20:31:36.242 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3842
+20:31:36.343 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3846
+20:31:36.444 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3850
+20:31:36.545 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3853
+20:31:36.646 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3857
+20:31:36.747 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3858
+20:31:36.900 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3857
+20:31:37.661 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3858
+20:31:38.373 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3857
+20:31:38.405 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3855
+20:31:38.411 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3854
+20:31:38.427 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3853
+20:31:38.435 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3852
+20:31:38.443 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3851
+20:31:38.451 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3850
+20:31:38.459 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3849
+20:31:38.465 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3848
+20:31:38.473 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3847
+20:31:38.481 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3845
+20:31:38.489 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3844
+20:31:38.497 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3843
+20:31:38.505 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3841
+20:31:38.513 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3838
+20:31:38.519 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3836
+20:31:38.527 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3833
+20:31:38.535 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3829
+20:31:38.543 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3826
+20:31:38.551 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3823
+20:31:38.559 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3820
+20:31:38.567 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3817
+20:31:38.575 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3815
+20:31:38.583 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3813
+20:31:38.589 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3810
+20:31:38.597 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3807
+20:31:38.605 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3806
+20:31:38.613 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3804
+20:31:38.621 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3801
+20:31:38.629 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3799
+20:31:38.637 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3797
+20:31:38.643 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3796
+20:31:38.659 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3795
+20:31:38.675 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3794
+20:31:38.691 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3793
+20:31:38.713 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3792
+20:31:38.768 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3791
+20:31:38.820 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3790
+20:31:38.893 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3789
+20:31:38.915 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3788
+20:31:38.923 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3787
+20:31:38.931 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3785
+20:31:38.947 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3784
+20:31:38.977 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3783
+20:31:39.109 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3784
+20:31:39.271 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3783
+20:31:39.340 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3782
+20:31:39.386 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3781
+20:31:39.557 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3780
+20:31:41.667 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:31:41.668 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:31:41.668 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel pasting of the fragment of analysis
+20:31:43.657 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:31:43.658 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:31:43.659 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:31:43.997 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4526
+20:31:43.998 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:52.773 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4666
+20:31:52.773 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:31:52.942 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4668
+20:31:52.950 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4669
+20:31:52.958 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4670
+20:31:52.966 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4671
+20:31:52.974 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4672
+20:31:52.982 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4675
+20:31:52.988 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4678
+20:31:52.996 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4630
+20:31:53.004 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4633
+20:31:53.012 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4635
+20:31:53.020 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4639
+20:31:53.028 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4696
+20:31:53.036 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4701
+20:31:53.042 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4703
+20:31:53.052 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4705
+20:31:53.058 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4707
+20:31:53.066 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4709
+20:31:53.074 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4712
+20:31:53.082 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4713
+20:31:53.090 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4715
+20:31:53.098 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4716
+20:31:53.106 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4717
+20:31:53.112 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4719
+20:31:53.120 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4720
+20:31:53.136 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4721
+20:31:53.152 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4722
+20:31:53.160 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4723
+20:31:53.166 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4724
+20:31:53.174 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4725
+20:31:53.182 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4798
+20:31:53.190 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4799
+20:31:53.198 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4800
+20:31:53.206 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4801
+20:31:53.214 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4802
+20:31:53.222 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4803
+20:31:53.230 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4805
+20:31:53.244 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4806
+20:31:53.252 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4807
+20:31:53.260 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4808
+20:31:53.268 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4809
+20:31:53.276 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4810
+20:31:53.298 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4811
+20:31:53.314 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4812
+20:31:53.330 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4813
+20:31:53.338 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4814
+20:31:53.344 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4815
+20:31:53.360 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4816
+20:31:53.376 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4817
+20:31:53.392 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4818
+20:31:53.408 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4819
+20:31:53.656 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 4740
+20:31:56.032 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:31:56.033 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:31:56.034 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel pasting of the fragment of analysis
+20:31:57.344 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:31:57.346 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:31:57.346 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:31:57.599 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3977
+20:31:57.600 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:00.137 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2176
+20:32:00.137 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:00.170 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2177
+20:32:00.208 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2178
+20:32:00.246 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2179
+20:32:00.316 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2180
+20:32:00.465 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2181
+20:32:01.824 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:01.832 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:01.833 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:01.834 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:32:01.834 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2176
+20:32:01.834 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:01.836 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:01.836 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:03.509 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2198
+20:32:03.509 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:04.363 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:04.374 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:04.375 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:04.375 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:04.375 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2198
+20:32:04.375 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:04.376 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:04.376 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:04.526 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:04.536 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:04.537 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:04.538 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:04.538 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2198
+20:32:04.538 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:04.539 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:04.539 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:04.896 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:04.905 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:04.913 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:04.913 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:04.913 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2198
+20:32:04.913 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:04.914 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:04.914 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:06.731 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2176
+20:32:06.731 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:06.878 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2177
+20:32:06.894 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2178
+20:32:06.916 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2179
+20:32:06.924 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2180
+20:32:06.932 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2181
+20:32:06.940 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2182
+20:32:06.948 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2183
+20:32:06.964 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2184
+20:32:06.970 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2185
+20:32:06.978 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2186
+20:32:06.986 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2187
+20:32:06.994 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2188
+20:32:07.002 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1846
+20:32:07.011 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1847
+20:32:07.018 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1848
+20:32:07.024 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1849
+20:32:07.032 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1850
+20:32:07.040 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1851
+20:32:07.048 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1852
+20:32:07.056 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1853
+20:32:07.080 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1854
+20:32:07.088 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2194
+20:32:07.102 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2195
+20:32:07.156 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2196
+20:32:07.404 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2197
+20:32:07.776 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2198
+20:32:08.156 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2197
+20:32:10.211 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:10.212 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:10.212 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel pasting of the fragment of analysis
+20:32:14.768 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:14.770 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:14.770 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:32:16.445 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2227
+20:32:16.446 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:17.390 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:17.401 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:17.402 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:17.403 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:32:17.403 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2226
+20:32:17.403 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:17.403 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:17.404 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:17.552 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:17.562 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:17.564 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:17.565 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:17.565 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2225
+20:32:17.565 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:17.565 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:17.566 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:17.705 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:17.716 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:17.717 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:17.718 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:17.718 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2224
+20:32:17.718 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:17.718 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:17.719 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:17.888 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:17.898 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:17.900 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:17.900 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:17.900 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2223
+20:32:17.901 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:17.901 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:17.901 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:20.086 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2224
+20:32:20.086 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:20.086 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:20.086 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+20:32:22.365 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1923
+20:32:22.365 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:23.182 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:23.194 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:23.196 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:23.196 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+20:32:23.196 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1922
+20:32:23.196 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:23.197 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:23.197 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:23.340 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:23.350 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:23.352 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:23.352 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:23.352 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1921
+20:32:23.352 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:23.353 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:23.353 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:23.734 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:23.745 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:23.746 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:23.747 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:23.747 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1920
+20:32:23.747 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:23.748 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:23.748 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:24.027 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:24.055 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:24.056 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:24.056 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:24.056 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1919
+20:32:24.056 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:24.057 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:24.057 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:24.941 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1920
+20:32:24.941 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:24.942 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:24.942 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+20:32:26.919 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1875
+20:32:26.919 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:27.740 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:27.750 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:27.752 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:27.752 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+20:32:27.753 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1874
+20:32:27.753 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:27.753 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:27.753 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:27.930 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:27.933 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:27.934 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:27.934 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:27.934 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1873
+20:32:27.934 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:27.934 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:27.934 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:28.254 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:28.265 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:28.266 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:28.267 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:28.267 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1872
+20:32:28.267 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:28.267 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:28.267 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:30.141 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2141
+20:32:30.141 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:31.016 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:31.026 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:31.029 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:31.029 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:31.029 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2140
+20:32:31.029 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:31.030 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:31.030 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:31.197 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:31.201 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:31.202 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:31.202 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:31.202 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2139
+20:32:31.202 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:31.202 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:31.202 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:31.356 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:31.369 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:31.372 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:31.372 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:31.372 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2138
+20:32:31.373 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:31.373 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:31.373 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:33.287 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1805
+20:32:33.288 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:34.344 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:34.358 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:34.361 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:34.361 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:34.361 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1804
+20:32:34.361 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:34.362 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:34.362 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:34.521 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:34.529 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:34.530 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:34.530 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:34.531 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1803
+20:32:34.531 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:34.531 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:34.531 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:34.669 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:34.678 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:34.679 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:34.679 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:34.679 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1802
+20:32:34.679 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:34.679 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:34.680 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:34.840 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:34.850 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:34.852 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:34.852 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:34.852 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1801
+20:32:34.852 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:34.853 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:34.853 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:36.690 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1802
+20:32:36.691 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:36.691 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:36.692 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+20:32:38.291 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1801
+20:32:38.291 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:38.384 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1800
+20:32:38.392 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1798
+20:32:38.400 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1795
+20:32:38.406 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1793
+20:32:38.414 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1791
+20:32:38.422 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1789
+20:32:38.430 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1785
+20:32:38.438 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1781
+20:32:38.446 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1778
+20:32:38.454 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1774
+20:32:38.460 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1771
+20:32:38.468 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1768
+20:32:38.476 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1693
+20:32:38.484 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1761
+20:32:38.493 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1758
+20:32:38.500 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1755
+20:32:38.508 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1752
+20:32:38.516 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1749
+20:32:38.524 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1747
+20:32:38.530 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1744
+20:32:38.538 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1741
+20:32:38.546 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1738
+20:32:38.554 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1693
+20:32:38.632 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1712
+20:32:38.640 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1709
+20:32:38.648 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1707
+20:32:38.654 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1704
+20:32:38.662 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1702
+20:32:38.670 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1700
+20:32:38.678 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1698
+20:32:38.686 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1695
+20:32:38.694 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1694
+20:32:38.803 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1693
+20:32:42.143 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:42.143 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:32:42.837 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1690
+20:32:42.837 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:43.832 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:43.841 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:43.842 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:43.843 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:32:43.843 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1690
+20:32:43.843 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:43.843 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:43.843 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:43.980 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:43.990 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:43.992 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:43.992 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:43.992 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1690
+20:32:43.992 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:43.993 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:43.993 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:44.366 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:44.373 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:32:44.374 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:44.374 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:44.374 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1690
+20:32:44.375 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:44.375 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:44.375 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:32:45.657 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1690
+20:32:45.657 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:45.718 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1544
+20:32:45.796 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1543
+20:32:45.850 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1542
+20:32:45.967 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1310
+20:32:46.270 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 1195
+20:32:46.473 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 971
+20:32:49.514 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:32:49.514 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:32:50.265 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2453
+20:32:50.265 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:32:56.074 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3487
+20:32:56.075 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(2453, Forward) Mark=(2453, Forward)
+20:32:56.075 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:32:56.106 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3259
+20:32:56.106 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: restoring previous dot = 3487
+20:32:56.236 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3260
+20:33:02.108 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3483
+20:33:02.108 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3260, Forward) Mark=(3487, Forward)
+20:33:02.108 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:02.116 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3269
+20:33:02.116 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: restoring previous dot = 3483
+20:33:03.324 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3274
+20:33:03.325 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3269, Forward) Mark=(3483, Forward)
+20:33:03.325 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:04.006 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3705
+20:33:04.007 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:05.375 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3706
+20:33:05.375 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3705, Forward) Mark=(3705, Forward)
+20:33:05.375 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:05.888 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3192
+20:33:05.888 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:05.921 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3193
+20:33:05.921 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3192, Forward) Mark=(3192, Forward)
+20:33:05.921 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:05.955 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3192
+20:33:05.956 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:05.989 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3193
+20:33:05.989 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3192, Forward) Mark=(3192, Forward)
+20:33:05.989 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:06.025 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3192
+20:33:06.025 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:06.059 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3193
+20:33:06.059 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3192, Forward) Mark=(3192, Forward)
+20:33:06.059 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:06.094 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3192
+20:33:06.094 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:06.128 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3193
+20:33:06.128 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3192, Forward) Mark=(3192, Forward)
+20:33:06.128 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:06.163 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3192
+20:33:06.163 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:06.197 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3193
+20:33:06.197 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3192, Forward) Mark=(3192, Forward)
+20:33:06.197 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:06.232 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3192
+20:33:06.232 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:06.266 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3193
+20:33:06.266 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3192, Forward) Mark=(3192, Forward)
+20:33:06.266 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:06.301 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3192
+20:33:06.313 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:06.335 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3193
+20:33:06.336 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3192, Forward) Mark=(3192, Forward)
+20:33:06.336 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:06.371 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3192
+20:33:06.371 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:06.404 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3193
+20:33:06.404 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3192, Forward) Mark=(3192, Forward)
+20:33:06.404 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:06.439 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3192
+20:33:06.440 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:06.474 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3193
+20:33:06.474 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3192, Forward) Mark=(3192, Forward)
+20:33:06.474 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3754
+20:33:12.052 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3483
+20:33:12.052 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3191, Forward) Mark=(3754, Forward)
+20:33:12.216 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3484
+20:33:12.432 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3485
+20:33:12.742 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 3486
+20:33:14.446 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:33:14.456 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:33:14.457 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:33:14.457 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo style change
+20:33:14.458 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3483
+20:33:14.458 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(3486, Forward) Mark=(3483, Forward)
+20:33:14.458 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3191, 3751
+20:33:14.467 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:33:14.468 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:33:21.767 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2412
+20:33:21.767 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:33:22.678 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:33:22.686 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:33:22.688 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:33:22.688 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:33:22.688 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2411
+20:33:22.688 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:33:22.688 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:33:22.688 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:33:22.824 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:33:22.835 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:33:22.837 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:33:22.837 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:33:22.837 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2410
+20:33:22.837 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:33:22.838 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:33:22.838 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:33:23.071 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:33:23.076 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:33:23.078 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:33:23.078 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:33:23.078 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2409
+20:33:23.079 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:33:23.079 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:33:23.079 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo deletion
+20:34:05.092 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2175
+20:34:05.092 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(2409, Forward) Mark=(2409, Forward)
+20:34:05.092 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 2161, 2182
+20:34:05.178 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2175
+20:34:05.179 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: restoring previous dot = 2175
+20:34:06.349 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2442
+20:34:06.349 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:34:07.029 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2170
+20:34:07.029 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(2442, Forward) Mark=(2442, Forward)
+20:34:07.029 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 2161, 2182
+20:34:12.784 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:34:12.791 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:34:12.792 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:34:15.416 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3217
+20:34:15.417 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: getCaret() = Dot=(2161, Forward) Mark=(2182, Forward)
+20:34:15.417 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: moving dot to section borders: 3188, 3748
+20:34:16.887 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:34:16.897 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:34:16.898 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:34:20.037 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+20:34:20.038 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:34:20.038 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Cancel editing of the fragment of analysis
+20:36:16.392 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3132
+20:36:16.392 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:36:18.144 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3131
+20:36:18.145 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:36:19.449 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 3132
+20:36:19.450 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:36:19.451 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:36:19.451 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+20:36:21.930 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4584
+20:36:21.931 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:36:22.946 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 4585
+20:36:22.946 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+20:36:22.947 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+20:36:22.947 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo typing
+21:44:12.094 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 1690
+21:44:12.095 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+21:44:17.281 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 2495
+21:44:17.282 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+21:44:17.321 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2496
+21:44:17.375 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2497
+21:44:17.397 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2859
+21:44:17.413 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2860
+21:44:17.429 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2861
+21:44:17.445 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2862
+21:44:17.453 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2864
+21:44:17.461 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2866
+21:44:17.467 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2867
+21:44:17.475 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2868
+21:44:17.483 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2870
+21:44:17.491 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2872
+21:44:17.499 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2873
+21:44:17.507 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2875
+21:44:17.523 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2877
+21:44:17.537 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2878
+21:44:17.545 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : moveDot: dot = 2879
+21:48:32.693 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+21:48:32.696 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+21:48:33.042 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+21:48:33.102 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo action
+21:48:33.104 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+21:49:00.540 [SwingWorker-pool-3-thread-1]  DEBUG  o.s.a.LegacyHtmlReader : doInBackground(): loading file C:\Users\Victor\Desktop\test.htm
+21:49:00.562 [SwingWorker-pool-3-thread-1]  WARN   o.s.a.LegacyHtmlReader : Closing tag |5] without corresponding opening tag
+21:49:00.583 [SwingWorker-pool-3-thread-1]  DEBUG  o.s.a.LegacyHtmlReader : doInBackground(): loading finished
+21:49:00.638 [AWT-EventQueue-0]  ERROR  o.s.a.DocumentLoadListener : Error while loading document
+java.lang.IllegalArgumentException: Parse string cannot be null
+	at org.socionicasys.analyst.model.AData.parseAData(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.readDocument(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.doInBackground(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.doInBackground(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at javax.swing.SwingWorker$1.call(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_71]
+	at javax.swing.SwingWorker.run(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_71]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_71]
+21:49:13.000 [SwingWorker-pool-3-thread-2]  DEBUG  o.s.a.LegacyHtmlReader : doInBackground(): loading file C:\Users\Victor\Desktop\test.htm
+21:49:13.020 [SwingWorker-pool-3-thread-2]  WARN   o.s.a.LegacyHtmlReader : Closing tag |5] without corresponding opening tag
+21:49:13.049 [SwingWorker-pool-3-thread-2]  DEBUG  o.s.a.LegacyHtmlReader : doInBackground(): loading finished
+21:49:13.093 [AWT-EventQueue-0]  ERROR  o.s.a.DocumentLoadListener : Error while loading document
+java.lang.IllegalArgumentException: Parse string cannot be null
+	at org.socionicasys.analyst.model.AData.parseAData(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.readDocument(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.doInBackground(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at org.socionicasys.analyst.LegacyHtmlReader.doInBackground(Unknown Source) ~[Analyst-2.0-EN-10.jar:na]
+	at javax.swing.SwingWorker$1.call(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_71]
+	at javax.swing.SwingWorker.run(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:1.8.0_71]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:1.8.0_71]
+	at java.lang.Thread.run(Unknown Source) ~[na:1.8.0_71]
+21:53:11.420 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+21:53:11.422 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+21:53:11.766 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+21:53:11.827 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo action
+21:53:11.829 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action
+21:53:34.243 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: dot = 0
+21:53:34.245 [AWT-EventQueue-0]  DEBUG  o.s.a.BlockNavigationFilter : setDot: no section here, keep dot where it is
+21:53:34.573 [AWT-EventQueue-0]  DEBUG  o.s.analyst.BTree : Document has changed, updating tree
+21:53:34.629 [AWT-EventQueue-0]  DEBUG  o.s.a.u.UndoAction : undoStateChanged(): new action name is Undo action
+21:53:34.631 [AWT-EventQueue-0]  DEBUG  o.s.a.u.RedoAction : undoStateChanged(): new action name is Redo action

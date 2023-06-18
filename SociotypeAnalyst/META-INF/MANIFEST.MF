@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: org.socionicasys.analyst.Analyst
+Specification-Version: 2.0-beta-10
+
