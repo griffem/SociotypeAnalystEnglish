@@ -344,7 +344,7 @@ public class ATree extends JTree {
 				"<h2> Revealed parameters of IM functions: </h2>" +
 				"Each of the marked-up passages contains analysis of element-related contents and related parameters of information processing.  <br/>" +
 				"The table below summarizes distribution of the passages according to the parameters of the Model A.<br/><br/>" +
-				"<table title=\"function analysis\" border=2 width=\"80%\">" +
+				"<table title=\"function analysis\" border=2 width=\"80%\" style=\"border-collapse: collapse;\">" +
 				HTML_ROW_OPEN +
 				"	<th width=\"20%\">  </th>\n");
 		for (Aspect aspect : ASPECTS) {
@@ -439,11 +439,11 @@ public class ATree extends JTree {
 		//Переводы
 		if (jumpsFound) {
 			reportBuilder.append("<br/>" +
-					"<h2> RIECs (response information element change) </h2>" +
-					"RIEC is an observed shift of the response element from the original element of the question.  <br/>" +
-					"Such transfer usually happens:  <br/>" +
-					"1) from a function with lesser dimensionality to a function of a greater dimensionality;  <br/>" +
-					"2) from vital track to mental track. <br/><br/>" +
+					"<h2> Transfers of Control </h2>" +
+					"A transfer of control occurs when someone answers a question with another information element.<br/>" +
+					"This typically happens when:  <br/>" +
+					"1) A person moves from a function with low dimensionality to another with higher dimensionality. <br/>" +
+					"2) A person moves from the vital ring to the mental ring. <br/><br/>" +
 					"<table title=\"jumps\" border=2 width=\"80%\">" +
 					HTML_ROW_OPEN +
 					"	<th width=\"20%\">RIEC<br/>from function \u25ba<br/>to function <br/> \u25bc </th>\n");

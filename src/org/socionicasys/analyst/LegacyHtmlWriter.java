@@ -173,7 +173,7 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 
 		//document title
 		writer.write(
-		"<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\" style=\"background-color:#023020; border-collapse:collapse; width:100%\">" +
+		"<table border=\"0\" cellpadding=\"10\" cellspacing=\"0\" style=\"background-color:#023020; border-collapse:collapse; width:100%\">" +
 		"	<tbody>" +
 		"		<tr>" +
 		"			<td><span style=\"font-size:48px\"><img alt=\"\" src=\"https://gcdnb.pbrd.co/images/qC8oCAr3JA6B.png?o=1\" style=\"height:84px; width:100px\" /><span style=\"color:#ffffff\"><span style=\"font-family:Lucida Sans Unicode,Lucida Grande,sans-serif\"><strong><sup>SSS Typing Protocol</sup></strong></span></span></span></td>" +
@@ -216,7 +216,7 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 		//document content
 		writer.write(
 			"<br/>\n\n" +
-			"<h2>Questionnaire Analysis</h2>\n\n" +
+			"<h1>Analysis</h1>\n\n" +
 			"<table title=\"protocol\" border=\"1\" width=\"100%\" style=\"border-collapse: collapse;\">\n" +
 			"<tr>\n" +
 			"    <th width=\"60%\">Questions &amp; Responses</th>\n" +
@@ -339,7 +339,7 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 					eventType = EventType.NEW_ROW;
 				}
 
-				//analyzing event and generating  mark-up
+				//analyzing event and generating mark-up
 				int sectionNo;
 				switch (eventType) {
 				case SECTION_START:
@@ -412,8 +412,8 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 		// if generating report
 		writer.write(
 			"<br/>" +
-					"<h1> Conclusions about the TIM version </h1>" +
-					"<br/>"
+			"<h1> Results of the Analysis </h1>" +
+			"<br/>"
 		);
 		writer.write(analystWindow.getNavigeTree().getReport());
 		writeMissMatchReport(writer);

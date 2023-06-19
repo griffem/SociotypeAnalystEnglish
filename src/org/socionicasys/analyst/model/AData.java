@@ -28,8 +28,8 @@ public class AData implements Serializable {
 	public static final String JUMP = "TRANSFER";
 	private static final List<String> VALID_MODIFIERS = Arrays.asList(BLOCK, JUMP);
 
-	private static final String BLOCK_TOKEN = " blocked with ";
-	private static final String JUMP_TOKEN = " transferred to ";
+	private static final String BLOCK_TOKEN = "\u21C4";
+	private static final String JUMP_TOKEN = "\u2794";
 	private static final String SEPARATOR = ";";
 
 	public static final String PLUS = "PLUS";
