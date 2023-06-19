@@ -42,7 +42,7 @@ public class Analyst implements Runnable {
 
 		// Язык приложения: русский
 		// TODO: возможность менять язык
-		Locale defaultLocale = new Locale("ru");
+		Locale defaultLocale = new Locale("en");
 		Locale.setDefault(defaultLocale);
 
 		UIDefaults uiDefaults = UIManager.getDefaults();

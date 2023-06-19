@@ -156,68 +156,45 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 
 		//writing the header
 		writer.write(String.format(
-			"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"> \n" +
-			"<meta http-equiv=\"Content-Type\" content=\"text/html charset=%s\"/>" +
-			"<html>\n<head>\n" +
-			"<title>%s</title>\n" +
-			"	<style>" +
-			"			body 	{font-size:14px;color:black}\n" +
-			"			h1		{}\n" +
-			"			h2		{}\n" +
-			"			th		{font-size:18px;font-weight:bold}\n" +
-			"			small	{font-size:9px;color:darkgray}\n" +
-			"	</style>\n" +
-			"</head> \n" +
-			"<body> \n",
+		"<!DOCTYPE HTML PUBLIC W3C//DTD HTML 4.01//EN http://www.w3.org/TR/html4/strict.dtd>" + 
+		"<meta http-equiv=\"Content-Type\" content=\"text/html charset=UTF-8\"/><html>" +
+		"<head>" +
+		"<title>New Document</title>" +
+		"	<style>			body 	{font-size:14px;color:black;font-family:Lucida Sans Unicode,Lucida Grande,sans-serif}" +
+		"			h1		{}" +
+		"			h2		{}" +
+		"			th		{font-size:18px;font-weight:bold}" +
+		"			small	{font-size:14px;font-weight:bold;color:black}" +
+		"	</style>" +
+		"</head>", 
 			LegacyHtmlFormat.FILE_ENCODING,
 			document.getProperty(Document.TitleProperty)
 		));
 
 		//document title
 		writer.write(
-		"<p><span style=\"font-size:48px\"><img alt=\"\" src=\"https://gcdnb.pbrd.co/images/qC8oCAr3JA6B.png?o=1\" style=\"height:84px; width:100px\" /><span style=\"color:#003300\"><span style=\"font-family:Lucida Sans Unicode,Lucida Grande,sans-serif\"><strong><sup>SSS Typing Protocol</sup></strong></span></span></span></p>" +
-		"<hr />"
+		"<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\" style=\"background-color:#023020; border-collapse:collapse; width:100%\">" +
+		"	<tbody>" +
+		"		<tr>" +
+		"			<td><span style=\"font-size:48px\"><img alt=\"\" src=\"https://gcdnb.pbrd.co/images/qC8oCAr3JA6B.png?o=1\" style=\"height:84px; width:100px\" /><span style=\"color:#ffffff\"><span style=\"font-family:Lucida Sans Unicode,Lucida Grande,sans-serif\"><strong><sup>SSS Typing Protocol</sup></strong></span></span></span></td>" +
+		"		</tr>" +
+		"	</tbody>" +
+		"</table>"		
 		);
-
 		//document header
 		writer.write(String.format(
-			"<br/>\n<br/>" +
-			"\n <table title=\"header\" border=1 width=\"40%%\"> 	\n" +
-			"<tr>\n" +
-			"	<td>      %s     </td>\n" +
-			"	<td>%s	</td>\n" +
-			"</tr>\n" +
-			"<tr>\n" +
-			"	<td>      %s     </td>\n" +
-			"	<td>%s 	</td>\n" +
-			"</tr>\n" +
-			"<tr>\n" +
-			"	<td>      %s     </td>\n" +
-			"	<td>%s	</td>\n" +
-			"</tr>\n" +
-			"<tr>\n" +
-			"	<td>      %s     </td>\n" +
-			"	<td>%s </td>\n" +
-			"</tr>\n" +
-			"<tr>\n" +
-			"	<td>      %s     </td>\n" +
-			"	<td>%s </td>\n" +
-			"</tr>\n" +
-			"</table >\n",
-			LegacyHtmlFormat.TITLE_PROPERTY_LABEL,
-			document.getProperty(Document.TitleProperty),
-			LegacyHtmlFormat.CLIENT_PROPERTY_LABEL,
+			"<hr />" +
+			"<p><span style=\"font-family:Lucida Sans Unicode,Lucida Grande,sans-serif\"><span style=\"font-size:24px\"><strong>Subject</strong>: %s </span></span></p>" +
+			"<p><span style=\"font-family:Lucida Sans Unicode,Lucida Grande,sans-serif\"><span style=\"font-size:24px\"><strong>Typist(s)</strong>: %s </span></span></p>" +
+			"<p><span style=\"font-family:Lucida Sans Unicode,Lucida Grande,sans-serif\"><span style=\"font-size:24px\"><strong>Date</strong>: %s </span></span></p>",
 			document.getProperty(ADocument.CLIENT_PROPERTY),
-			LegacyHtmlFormat.EXPERT_PROPERTY_LABEL,
 			document.getProperty(ADocument.EXPERT_PROPERTY),
-			LegacyHtmlFormat.DATE_PROPERTY_LABEL,
-			document.getProperty(ADocument.DATE_PROPERTY),
-			LegacyHtmlFormat.COMMENT_PROPERTY_LABEL,
-			document.getProperty(ADocument.COMMENT_PROPERTY)
+			document.getProperty(ADocument.DATE_PROPERTY)
 		));
 
 		//  writing the color legend
 		writer.write(
+		"<hr />" +
 		"<h2><span style=\"font-size:24px\"><strong>Color Legend</strong></span></h2>" +
 		"<hr />" +
 		"<ul>" +
@@ -239,14 +216,14 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 		//document content
 		writer.write(
 			"<br/>\n\n" +
-			"<h2>  ANALYSIS </h2>\n\n" +
-			" <table title=\"protocol\" border=2 width=\"100%\"> 	\n" +
+			"<h2>Questionnaire Analysis</h2>\n\n" +
+			"<table title=\"protocol\" border=\"1\" width=\"100%\" style=\"border-collapse: collapse;\">\n" +
 			"<tr>\n" +
-			"	<th width=\"60%\"> QUESTIONS AND ANSWERS </th>\n" +
-			"	<th width=\"40%\"> EXPERT REMARKS</th>\n" +
+			"    <th width=\"60%\">Questions &amp; Responses</th>\n" +
+			"    <th width=\"40%\">Typists' Remarks</th>\n" +
 			"</tr>\n" +
 			"<tr>\n" +
-			"	<td>"
+			"    <td>"
 		);
 
 		// PREPARING
@@ -457,35 +434,35 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 
 	private static String getHTMLStyleForAData(AData data) {
 		if (data.getAspect().equals(AData.DOUBT)) {
-			return "background-color:#EAEAEA";
+			return "background-color:#f4cccc";
 		}
 		StringBuilder res = new StringBuilder("\"");
 		boolean unstyled = true;
 		String dimension = data.getDimension();
 		if (Arrays.asList(AData.D1, AData.D2, AData.ODNOMERNOST, AData.MALOMERNOST).contains(dimension)) {
-			res.append("background-color:#AAEEEE;");
+			res.append("background-color:#fff2cc;");
 			unstyled = false;
 		} else if (Arrays.asList(AData.D3, AData.D4, AData.MNOGOMERNOST).contains(dimension)) {
 			// противный зеленый
-			res.append("background-color:#AAEEAA;");
+			res.append("background-color:#d9ead3;");
 			unstyled = false;
 		}
 		if (data.getSign() != null) {
-			res.append("color:#FF0000;");
+			res.append("background-color:#fce5cd;");
 			unstyled = false;
 		}
 		if (data.getFD() != null) {
-			res.append("background-color:#FFFFCC;");
+			res.append("background-color:#d0e0e3;");
 			unstyled = false;
 		}
 
 		if (data.getBlocks() != null) {
-			res.append("background-color:#FFFFCC;");
+			res.append("background-color:#d9d2e9;");
 			unstyled = false;
 		}
 		//Если не задан другой стиль, то будет этот стиль
 		if (unstyled) {
-			res.append("text-decoration:underline");
+			res.append("background-color:#f3f3f3");
 		}
 		res.append('\"');
 		return res.toString();

@@ -76,10 +76,10 @@ public class LegacyHtmlReader extends SwingWorker<ADocument, Void> {
 		String text = readFromStream();
 		setProgress(FILE_LOAD_PROGRESS);
 
-		Dictionary<Object, Object> documentProperties = document.getDocumentProperties();
-		for (Map.Entry<String, String> entry : parseDocumentProperties(text).entrySet()) {
-			documentProperties.put(entry.getKey(), entry.getValue());
-		}
+		// Dictionary<Object, Object> documentProperties = document.getDocumentProperties();
+		// for (Map.Entry<String, String> entry : parseDocumentProperties(text).entrySet()) {
+		// 	documentProperties.put(entry.getKey(), entry.getValue());
+		// }
 
 		StringBuilder leftColumnBuilder = new StringBuilder();
 		StringBuilder rightColumnBuilder = new StringBuilder();
@@ -210,6 +210,7 @@ public class LegacyHtmlReader extends SwingWorker<ADocument, Void> {
 	/**
 	 * @return map mapping document property labels in htm file to property names in {@link ADocument}.
 	 */
+
 	private static Map<String, String> buildPropertyLabel2KeyMap() {
 		Map<String, String> label2KeyMap = new HashMap<String, String>();
 		label2KeyMap.put(LegacyHtmlFormat.TITLE_PROPERTY_LABEL, Document.TitleProperty);
@@ -226,30 +227,31 @@ public class LegacyHtmlReader extends SwingWorker<ADocument, Void> {
 	 * @param text текст документа
 	 * @return карта свойств документа
 	 */
-	private static Map<String, String> parseDocumentProperties(String text) {
-		// looking for the table "header"
-		int tableStart = text.indexOf("title=\"header\"", 0);
-		String leftHeaderText = text.substring(tableStart, text.indexOf("</table", tableStart));
 
-		// looking through columns of table "header" and retreiving text of the left and right columns
-		Map<String, String> documentProperties = new HashMap<String, String>();
-		Matcher matcher = TABLE_ROW_PATTERN.matcher(leftHeaderText);
-		while (matcher.find()) {
-			String propertyLabel = matcher.group(TABLE_ROW_CELL_1_GROUP);
-			String propertyValue = matcher.group(TABLE_ROW_CELL_2_GROUP);
+	// private static Map<String, String> parseDocumentProperties(String text) {
+	// 	// looking for the table "header"
+	// 	int tableStart = text.indexOf("title=\"header\"", 0);
+	// 	String leftHeaderText = text.substring(tableStart, text.indexOf("</table", tableStart));
 
-			//обработка заголовка
-			propertyValue = HTML_BR_PATTERN.matcher(propertyValue).replaceAll("\n");
+	// 	// looking through columns of table "header" and retreiving text of the left and right columns
+	// 	Map<String, String> documentProperties = new HashMap<String, String>();
+	// 	Matcher matcher = TABLE_ROW_PATTERN.matcher(leftHeaderText);
+	// 	while (matcher.find()) {
+	// 		String propertyLabel = matcher.group(TABLE_ROW_CELL_1_GROUP);
+	// 		String propertyValue = matcher.group(TABLE_ROW_CELL_2_GROUP);
 
-			if (PROPERTY_LABEL_2_KEY_MAP.containsKey(propertyLabel)) {
-				String propertyName = PROPERTY_LABEL_2_KEY_MAP.get(propertyLabel);
-				documentProperties.put(propertyName, propertyValue);
-			} else {
-				logger.warn("Unknown document property '{}'='{}'", propertyLabel, propertyValue);
-			}
-		}
-		return documentProperties;
-	}
+	// 		//обработка заголовка
+	// 		propertyValue = HTML_BR_PATTERN.matcher(propertyValue).replaceAll("\n");
+
+	// 		if (PROPERTY_LABEL_2_KEY_MAP.containsKey(propertyLabel)) {
+	// 			String propertyName = PROPERTY_LABEL_2_KEY_MAP.get(propertyLabel);
+	// 			documentProperties.put(propertyName, propertyValue);
+	// 		} else {
+	// 			logger.warn("Unknown document property '{}'='{}'", propertyLabel, propertyValue);
+	// 		}
+	// 	}
+	// 	return documentProperties;
+	// }
 
 	/**
 	 * Разбирает текст основной таблицы протокола, выделяет из нее тексты левой и правой колонок.
