@@ -208,7 +208,7 @@ public class LegacyHtmlReader extends SwingWorker<ADocument, Void> {
 	}
 
 	/**
-	 * @return карту, сопоставляющую метки свойсвт документа в htm-файле именам свойств в {@link ADocument}.
+	 * @return map mapping document property labels in htm file to property names in {@link ADocument}.
 	 */
 	private static Map<String, String> buildPropertyLabel2KeyMap() {
 		Map<String, String> label2KeyMap = new HashMap<String, String>();

@@ -174,7 +174,10 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 		));
 
 		//document title
-		writer.write(String.format("\n<h1>%s</h1>\n", document.getProperty(Document.TitleProperty)));
+		writer.write(
+		"<p><span style=\"font-size:48px\"><img alt=\"\" src=\"https://gcdnb.pbrd.co/images/qC8oCAr3JA6B.png?o=1\" style=\"height:84px; width:100px\" /><span style=\"color:#003300\"><span style=\"font-family:Lucida Sans Unicode,Lucida Grande,sans-serif\"><strong><sup>SSS Typing Protocol</sup></strong></span></span></span></p>" +
+		"<hr />"
+		);
 
 		//document header
 		writer.write(String.format(
@@ -215,28 +218,20 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 
 		//  writing the color legend
 		writer.write(
-			"<br/>\n<br/>" +
-			"<h3> Color legend: </h3>" +
-			"\n <table title=\"legend\" border=0 width=\"40%\"> 	\n" +
-			"<tr>\n" +
-			"	<td style=\"background-color:#EAEAEA\">Unclear passage</td>\n" +
-			"</tr>\n" +
-			"<tr>\n" +
-			"	<td style=\"background-color:#AAEEEE;\">      Low-dimensionality     </td>\n" +
-			"</tr>\n" +
-			"<tr>\n" +
-			"	<td style=\"background-color:#AAEEAA;\">      High-dimensionality     </td>\n" +
-			"</tr>\n" +
-			"<tr>\n" +
-			"	<td  style=\"color:#FF0000;\">      		  Passage contains sign-related information     </td>\n" +
-			"</tr>\n" +
-			"<tr>\n" +
-			"	<td style=\"background-color:#FFFFCC;\">      Passage contains mental/vital related information     </td>\n" +
-			"</tr>\n" +
-			"<tr>\n" +
-			"	<td style=\"text-decoration:underline\">      Other     </td>\n" +
-			"</tr>\n" +
-			"</table >\n"
+		"<h2><span style=\"font-size:24px\"><strong>Color Legend</strong></span></h2>" +
+		"<hr />" +
+		"<ul>" +
+		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#f4cccc\">Unclear Passage</span></span></span></span></li>" +
+		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#fce5cd\">Sign Information</span></span></span></span></li>" +
+		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#fff2cc\">Low-Dimensionality</span></span></span></span></li>" +
+		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#d9ead3\">High-Dimensionality</span></span></span></span></li>" +
+		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#d0e0e3\">Function Dichotomy</span></span></span></span></li>" +
+		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#d9d2e9\">Block Information</span></span></span></span></li>" +
+		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#f3f3f3\">Other</span></span></span></span></li>" +
+		"</ul>" +
+		"\n" +
+		"<hr />" +
+		"<p>&nbsp;</p>"
 		);
 
 		setProgress(HEADER_PROGRESS);
