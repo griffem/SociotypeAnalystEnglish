@@ -28,13 +28,14 @@ public final class DocumentLoadListener extends SwingWorkerDoneListener<LegacyHt
 	private static final Logger logger = LoggerFactory.getLogger(DocumentLoadListener.class);
 
 	/**
-	 * Создает объект, который может наблюдать за процессом загрузки документа фоновым потоком
-	 * {@link LegacyHtmlReader} и добавит загруженный документ в заданный контейнер по окончанию.
+	 * Creates an object that can observe the process of loading a document with a background thread
+	 * {@link LegacyHtmlReader} and will add the loaded document to the specified container when finished.
 	 *
-	 * @param documentHolder контейнер для загруженного документа
-	 * @param append добавлять ли новый документ в конец уже существующего вместо полной замены
-	 * @param appendOffset Смещение, по которому нужно добавить текст в существующий документ
+	 * @param documentHolder container for the loaded document
+	 * @param append Whether to add a new document to the end of an existing document instead of replacing it entirely
+	 * @param appendOffset The offset at which to add text to an existing document
 	 */
+
 	public DocumentLoadListener(DocumentHolder documentHolder, boolean append, int appendOffset) {
 		this.documentHolder = documentHolder;
 		this.append = append;

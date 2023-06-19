@@ -274,7 +274,9 @@ public class AData implements Serializable {
 
 		patternBuilder.append("(?:(").append(joinRegexValues(VALID_DIMENSIONS)).append(");)?");
 
-		patternBuilder.append('(').append(joinRegexValues(VALID_FDS)).append(")?");
+		patternBuilder.append("(?:(").append(joinRegexValues(VALID_FDS)).append(");)?");
+
+		patternBuilder.append('(').append(joinRegexValues(VALID_BLOCKS)).append(")?");
 
 		return Pattern.compile(patternBuilder.toString());
 	}

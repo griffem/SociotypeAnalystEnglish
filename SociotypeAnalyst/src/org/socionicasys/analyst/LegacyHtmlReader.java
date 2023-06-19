@@ -21,7 +21,7 @@ public class LegacyHtmlReader extends SwingWorker<ADocument, Void> {
 	private static final Pattern HTML_BR_PATTERN = Pattern.compile("<br/>", Pattern.LITERAL);
 	private static final Pattern LINEBREAK_PATTERN = Pattern.compile("\n", Pattern.LITERAL);
 
-	// Строка таблицы со свойствами документа или таблицы протокола
+	// table row with document or protocol table properties
 	private static final Pattern TABLE_ROW_PATTERN =
 			Pattern.compile("<tr>\\s*<td>\\s*(.*?)\\s*</td>\\s*<td>\\s*(.*?)\\s*</td>\\s*</tr>", Pattern.DOTALL);
 	private static final int TABLE_ROW_CELL_1_GROUP = 1;
@@ -29,12 +29,12 @@ public class LegacyHtmlReader extends SwingWorker<ADocument, Void> {
 	
 	private static final Map<String, String> PROPERTY_LABEL_2_KEY_MAP = buildPropertyLabel2KeyMap();
 
-	// Регулярное выражение для поиска тегов вида [n| и |n]
+	// Regular expression to search for tags of the form [n] and [n]
 	private static final Pattern LEFT_COLUMN_TAG_PATTERN = Pattern.compile("(?:\\[(\\d+)\\|)|(?:\\|(\\d+)\\])");
 	private static final int LEFT_COLUMN_TAG_OPENING_GROUP = 1;
 	private static final int LEFT_COLUMN_TAG_CLOSING_GROUP = 2;
 
-	// Регулярное выражение для поиска тегов вида {n:пометки типировщика}комментарий типиврощика
+	// Regular expression to search for tags of the form {n:typewriter's marks} typewriter's comments
 	private static final Pattern RIGHT_COLUMN_TAG_PATTERN = Pattern.compile("\\{(\\d+):([^}]*)\\}([^{]*)");
 	private static final int RIGHT_COLUMN_TAG_ID_GROUP = 1;
 	private static final int RIGHT_COLUMN_TAG_MARKUP_GROUP = 2;
@@ -122,8 +122,8 @@ public class LegacyHtmlReader extends SwingWorker<ADocument, Void> {
 			styledTextBlocks.add(new StyledText(textBlock, currentStyle));
 			sourcePosition = tagEnd;
 
-			// Так как мы удаляем теги из основного текста, необходимо сместить
-			// пометки типировщика, находящиеся после тега
+			// Since we are removing tags from the main text, it is necessary to displace
+			// typer marks, which are after the tag
 			for (RawAData rd : rawData.values()) {
 				if (rd.getBegin() >= tagEnd - sourceOffset) {
 					rd.setBegin(rd.getBegin() - tagLength);
@@ -278,11 +278,11 @@ public class LegacyHtmlReader extends SwingWorker<ADocument, Void> {
 	}
 
 	/**
-	 * Разбирает текст левой колонки в таблице протокола. Заносит найденные теги в карту
-	 * {@link #rawData}, возвращает текст левой колонки с удаленными тегами.
+	 * Parses the text in the left column of the protocol table. Writes the found tags into the map.
+	 * {@link #rawData}, returns the text of the left column with the deleted tags.
 	 *
-	 * @param rawColumnText исходный текст колонки
-	 * @return текст без тегов
+	 * @param rawColumnText source text of the column
+	 * @return untagged text
 	 */
 	private String parseLeftColumn(String rawColumnText) {
 		Matcher tagMatcher = LEFT_COLUMN_TAG_PATTERN.matcher(rawColumnText);
@@ -292,14 +292,14 @@ public class LegacyHtmlReader extends SwingWorker<ADocument, Void> {
 			String openingTagNumber = tagMatcher.group(LEFT_COLUMN_TAG_OPENING_GROUP);
 			String closingTagNumber = tagMatcher.group(LEFT_COLUMN_TAG_CLOSING_GROUP);
 			if (openingTagNumber != null) {
-				// Открывающий тег [n|
+				// Opening tag [n|
 				int tagNumber = Integer.parseInt(openingTagNumber);
 				logger.trace("parseLeftColumn(): opening tag [{}| found", tagNumber);
 				RawAData data = new RawAData();
 				data.setBegin(tagMatcher.start() - offset);
 				rawData.put(tagNumber, data);
 			} else if (closingTagNumber != null) {
-				// Закрывающий тег |n]
+				// Closing tag |n]
 				int tagNumber = Integer.parseInt(closingTagNumber);
 				logger.trace("parseLeftColumn(): closing tag |{}] found", tagNumber);
 				RawAData data = rawData.get(tagNumber);
@@ -315,16 +315,16 @@ public class LegacyHtmlReader extends SwingWorker<ADocument, Void> {
 	}
 
 	/**
-	 * Разбирает текст правой колонки протокола. Найденные пометки и комментарии
-	 * собирает в карте {@link #rawData}.
+	 * Parses the text in the right column of the protocol. Finds notes and comments.
+	 * collects in the map {@link #rawData}.
 	 *
-	 * @param text текст правой колонки
+	 * @param text right column text
 	 */
 	private void parseRightColumn(String text) {
 		Matcher tagMatcher = RIGHT_COLUMN_TAG_PATTERN.matcher(text);
 		while (tagMatcher.find()) {
-			// Обрабатываем теги вида:
-			// {n:пометки типировщика} комментарий
+			// Handle tags of the form:
+			// {n:typewriter marks} comment
 			setProgress(FILE_LOAD_PROGRESS + LEFT_COLUMN_PROGRESS +
 				RIGHT_COLUMN_PROGRESS * tagMatcher.start() / text.length());
 
