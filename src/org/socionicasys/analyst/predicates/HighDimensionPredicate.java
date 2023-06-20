@@ -14,6 +14,6 @@ public class HighDimensionPredicate extends PositionPredicate {
 
 	@Override
 	public String toString() {
-		return "High-dimensionality";
+		return "High-Dimensionality";
 	}
 }

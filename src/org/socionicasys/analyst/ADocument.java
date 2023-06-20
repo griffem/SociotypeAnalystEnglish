@@ -54,6 +54,7 @@ public class ADocument extends DefaultStyledDocument {
 		DEFAULT_STYLE = new SimpleAttributeSet();
 		DEFAULT_STYLE.addAttribute(StyleConstants.FontSize, 16);
 		DEFAULT_STYLE.addAttribute(StyleConstants.Foreground, Color.lightGray);
+		DEFAULT_STYLE.addAttribute(StyleConstants.Background, Color.decode("#47484b"));
 		DEFAULT_STYLE.addAttribute(StyleConstants.FontFamily, Font.SANS_SERIF);
 		//style of a section with mark-up
 		DEFAULT_SECTION_STYLE = new SimpleAttributeSet();
@@ -223,9 +224,9 @@ public class ADocument extends DefaultStyledDocument {
 	}
 
 	/**
-	 * Удаляет из документа заданный набор отметок.
+	 * Deletes a specified set of marks from the document.
 	 *
-	 * @param sections набор интервалов, для которых нужно удалить отметки.
+	 * @param sections the set of intervals for which you want to remove the marks.
 	 */
 	public void removeSections(Collection<DocumentSection> sections) {
 		logger.trace("removeSections({}): entering", sections);

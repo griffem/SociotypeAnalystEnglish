@@ -14,6 +14,6 @@ public class Dimension1Predicate extends PositionPredicate {
 
 	@Override
 	public String toString() {
-		return "One-dimensionality";
+		return "One-Dimensionality";
 	}
 }
