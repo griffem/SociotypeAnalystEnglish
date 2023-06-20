@@ -53,7 +53,7 @@ public class Analyst implements Runnable {
 		try {
 			UIManager.setLookAndFeel( new FlatDarkLaf() );
 		} catch( Exception ex ) {
-		System.err.println( "Failed to initialize LaF" );
+			System.err.println( "Failed to initialize LaF" );
 		}
 
 		final AnalystWindow analystWindow = new AnalystWindow();
