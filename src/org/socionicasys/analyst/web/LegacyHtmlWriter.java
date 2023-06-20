@@ -1,5 +1,10 @@
-package org.socionicasys.analyst;
+package org.socionicasys.analyst.web;
 
+import org.socionicasys.analyst.ADocument;
+import org.socionicasys.analyst.AnalystWindow;
+import org.socionicasys.analyst.DocumentSection;
+import org.socionicasys.analyst.LegacyHtmlFormat;
+import org.socionicasys.analyst.MatchMissItem;
 import org.socionicasys.analyst.model.AData;
 import org.socionicasys.analyst.service.VersionInfo;
 import org.socionicasys.analyst.types.Sociotype;

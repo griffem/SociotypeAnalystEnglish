@@ -8,6 +8,7 @@ import org.socionicasys.analyst.service.VersionInfo;
 import org.socionicasys.analyst.undo.ActiveUndoManager;
 import org.socionicasys.analyst.undo.RedoAction;
 import org.socionicasys.analyst.undo.UndoAction;
+import org.socionicasys.analyst.web.LegacyHtmlWriter;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;

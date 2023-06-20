@@ -1,5 +1,7 @@
 package org.socionicasys.analyst;
 
+import org.socionicasys.analyst.web.LegacyHtmlWriter;
+
 /**
  * Содержит константы, общие для {@link LegacyHtmlReader} и {@link LegacyHtmlWriter}.
  */
