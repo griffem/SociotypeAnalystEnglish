@@ -31,9 +31,9 @@ public final class DimensionPanel extends ActivePanel {
 		buttons.put(AData.D2, new JRadioButton(DimensionPredicate.getDimensionName(2)));
 		buttons.put(AData.D3, new JRadioButton(DimensionPredicate.getDimensionName(3)));
 		buttons.put(AData.D4, new JRadioButton(DimensionPredicate.getDimensionName(4)));
-		buttons.put(AData.ODNOMERNOST, new JRadioButton("One-dimensionality"));
-		buttons.put(AData.MALOMERNOST, new JRadioButton("Low-dimensionality"));
-		buttons.put(AData.MNOGOMERNOST, new JRadioButton("High-dimensionality"));
+		buttons.put(AData.ODNOMERNOST, new JRadioButton("One-Dimensionality"));
+		buttons.put(AData.MALOMERNOST, new JRadioButton("Low-Dimensionality"));
+		buttons.put(AData.MNOGOMERNOST, new JRadioButton("High-Dimensionality"));
 		buttons.put(AData.INDIVIDUALNOST, new JRadioButton("Individuality"));
 
 		buttonGroup = new ButtonGroup();

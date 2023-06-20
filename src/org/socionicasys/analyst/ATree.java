@@ -30,9 +30,9 @@ public class ATree extends JTree {
 	private static final String SIGNS_LABEL = "Signs";
 	private static final String DIMENSIONS_LABEL = "Dimensions";
 	private static final String FD_LABEL = "Func Dichotomies";
-	private static final String LOW_DIMENSION_LABEL = "Low-dimensionality";
-	private static final String HIGH_DIMENSION_LABEL = "High-dimensionality";
-	private static final String DIMENSION1_LABEL = "One-dimensionality";
+	private static final String LOW_DIMENSION_LABEL = "Low-Dimensionality";
+	private static final String HIGH_DIMENSION_LABEL = "High-Dimensionality";
+	private static final String DIMENSION1_LABEL = "One-Dimensionality";
 	private static final String INDIVIDUALITY_LABEL = "Individuality";
 	private static final String BLOCKS_LABEL = "Blocks";
 	private static final String DOUBT_LABEL = "Unclear passages";
@@ -341,10 +341,10 @@ public class ATree extends JTree {
 		}
 
 		StringBuilder reportBuilder = new StringBuilder("<br/>" +
-				"<h2> Revealed parameters of IM functions: </h2>" +
+				"<h2> Markings of Information Metabolism functioning: </h2>" +
 				"Each of the marked-up passages contains analysis of element-related contents and related parameters of information processing.  <br/>" +
-				"The table below summarizes distribution of the passages according to the parameters of the Model A.<br/><br/>" +
-				"<table title=\"function analysis\" border=2 width=\"80%\" style=\"border-collapse: collapse;\">" +
+				"The table below summarizes distribution of the passages according to the parameters of Model A.<br/><br/>" +
+				"<table title=\"function analysis\" border=2 width=\"80%\" class=\"styled-table\" style=\"border-collapse: collapse;\">" +
 				HTML_ROW_OPEN +
 				"	<th width=\"20%\">  </th>\n");
 		for (Aspect aspect : ASPECTS) {
@@ -403,7 +403,7 @@ public class ATree extends JTree {
 			reportBuilder.append(HTML_ROW_CLOSE);
 		}
 
-		createReportRow(reportBuilder, "One-dimensionality");
+		createReportRow(reportBuilder, "One-Dimensionality");
 		for (Aspect aspect : ASPECTS) {
 			reportBuilder.append(HTML_CELL_OPEN);
 			reportBuilder.append(predicateCounts.get(new Dimension1Predicate(aspect)));
@@ -411,7 +411,7 @@ public class ATree extends JTree {
 		}
 		reportBuilder.append(HTML_ROW_CLOSE);
 
-		createReportRow(reportBuilder, "Low-dimensionality");
+		createReportRow(reportBuilder, "Low-Dimensionality");
 		for (Aspect aspect : ASPECTS) {
 			reportBuilder.append(HTML_CELL_OPEN);
 			reportBuilder.append(predicateCounts.get(new LowDimensionPredicate(aspect)));
@@ -419,7 +419,7 @@ public class ATree extends JTree {
 		}
 		reportBuilder.append(HTML_ROW_CLOSE);
 
-		createReportRow(reportBuilder, "High-dimensionality");
+		createReportRow(reportBuilder, "High-Dimensionality");
 		for (Aspect aspect : ASPECTS) {
 			reportBuilder.append(HTML_CELL_OPEN);
 			reportBuilder.append(predicateCounts.get(new HighDimensionPredicate(aspect)));
@@ -444,9 +444,9 @@ public class ATree extends JTree {
 					"This typically happens when:  <br/>" +
 					"1) A person moves from a function with low dimensionality to another with higher dimensionality. <br/>" +
 					"2) A person moves from the vital ring to the mental ring. <br/><br/>" +
-					"<table title=\"jumps\" border=2 width=\"80%\">" +
+					"<table title=\"jumps\" border=2 width=\"80%\" class=\"styled-table\">" +
 					HTML_ROW_OPEN +
-					"	<th width=\"20%\">RIEC<br/>from function \u25ba<br/>to function <br/> \u25bc </th>\n");
+					"	<th width=\"20%\">Transfer<br/>Original\u25ba<br/>New<br/> \u25bc </th>\n");
 			for (Aspect aspect : ASPECTS) {
 				reportBuilder.append(String.format("	<th width=\"10%%\"> %s </th>\n", aspect.getAbbreviation()));
 			}

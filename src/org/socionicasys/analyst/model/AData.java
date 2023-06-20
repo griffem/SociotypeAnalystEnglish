@@ -28,7 +28,7 @@ public class AData implements Serializable {
 	public static final String JUMP = "TRANSFER";
 	private static final List<String> VALID_MODIFIERS = Arrays.asList(BLOCK, JUMP);
 
-	private static final String BLOCK_TOKEN = "\u21C4";
+	private static final String BLOCK_TOKEN = "\u2715";
 	private static final String JUMP_TOKEN = "\u2794";
 	private static final String SEPARATOR = ";";
 
@@ -36,14 +36,14 @@ public class AData implements Serializable {
 	public static final String MINUS = "MINUS";
 	private static final List<String> VALID_SIGNS = Arrays.asList(PLUS, MINUS);
 
-	public static final String D1 = "Dimensionality Ex";
-	public static final String D2 = "Dimensionality Nr";
-	public static final String D3 = "Dimensionality St";
-	public static final String D4 = "Dimensionality Tm";
-	public static final String ODNOMERNOST = "One-dimensionality";
+	public static final String D1 = "Dimension of Ex";
+	public static final String D2 = "Dimension of Nr";
+	public static final String D3 = "Dimension of St";
+	public static final String D4 = "Dimension of Tm";
+	public static final String ODNOMERNOST = "One-Dimensionality";
 	public static final String INDIVIDUALNOST = "Individuality";
-	public static final String MALOMERNOST = "Low-dimensionality";
-	public static final String MNOGOMERNOST = "High-dimensionality";
+	public static final String MALOMERNOST = "Low-Dimensionality";
+	public static final String MNOGOMERNOST = "High-Dimensionality";
 	private static final List<String> VALID_DIMENSIONS = Arrays.asList(D1, D2, D3, D4, MALOMERNOST, MNOGOMERNOST, ODNOMERNOST, INDIVIDUALNOST);
 
 	public static final String MENTAL = "Mental";
