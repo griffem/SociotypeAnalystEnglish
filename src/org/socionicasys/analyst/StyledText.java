@@ -6,16 +6,16 @@ public final class StyledText {
 	private final String text;
 	private final AttributeSet style;
 
-	StyledText(final String text, final AttributeSet style) {
+	public StyledText(final String text, final AttributeSet style) {
 		this.text = text;
 		this.style = style.copyAttributes();
 	}
 
-	String getText() {
+	public String getText() {
 		return text;
 	}
 
-	AttributeSet getStyle() {
+	public AttributeSet getStyle() {
 		return style;
 	}
 }
