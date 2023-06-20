@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="module">
+        // CONFIG START
+        const config = {
+            "app_ver": "1.0",
+            "title": "JSmith Analysis",
+            "client_name": "John Smith",
+            "experts": "Clark Kent",
+            "date_created": "Jun 19, 2023",
+            "comments": "N/A",
+            "analysis": [
+                {
+                    "text": "I love pie",
+                    "count": 1,
+                    "element": "Si",
+                    "marker": "Nr",
+                    "comment": ""
+                },
+                {
+                    "text": "What a wonderful time",
+                    "count": 1,
+                    "element": "Fe",
+                    "marker": "Mental",
+                    "comment": ""
+                }
+            ]
+        }
+        // CONFIG END
+
+        import { createApp } from 'https://unpkg.com/petite-vue?module'
+        
+        createApp({ config }).mount("#app");
+    </script>
+
+    <!-- PAGE CSS -->
+    <style>
+
+    </style>
+
+    <title>Socionics Analysis</title>
+</head>
+
+<body>
+<div id="app">
+    <table> 	
+        <tr>
+            <th width="60%"> QUESTIONS AND ANSWERS </th>
+            <th width="40%"> EXPERT REMARKS</th>
+        </tr>
+
+        <template v-for="row in config.analysis">
+            <tr>
+                <td>
+                    [{{ row.count }}] {{ row.text }} [{{ row.count }}]
+                </td>
+                <td>
+                    { {{ row.count }}: {{ row.element }}; {{ row.marker }}; {{ row.comment }}}
+                </td>
+            </tr>
+        </template>
+    </table>
+</div>
+</body>
+</html>
