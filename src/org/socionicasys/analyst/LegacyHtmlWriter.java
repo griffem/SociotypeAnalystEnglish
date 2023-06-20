@@ -226,7 +226,7 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#d9ead3\">High-Dimensionality</span></span></span></span></li>" +
 		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#d0e0e3\">Function Dichotomy</span></span></span></span></li>" +
 		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#d9d2e9\">Block Information</span></span></span></span></li>" +
-		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#f3f3f3\">Other</span></span></span></span></li>" +
+		"	<li><span style=\"font-size:20px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\"><span style=\"color:#000000\"><span style=\"background-color:#ead1dc\">Other</span></span></span></span></li>" +
 		"</ul>" +
 		"\n" +
 		"<hr />" +
@@ -489,7 +489,7 @@ public class LegacyHtmlWriter extends SwingWorker<Void, Void> {
 		}
 		//Если не задан другой стиль, то будет этот стиль
 		if (unstyled) {
-			res.append("background-color:#f3f3f3");
+			res.append("background-color:#ead1dc");
 		}
 		res.append('\"');
 		return res.toString();
