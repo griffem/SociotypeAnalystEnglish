@@ -37,21 +37,21 @@ public class DocumentSection implements Comparable<DocumentSection> {
 	}
 
 	/**
-	 * Возвращает текущее смещение начала интервала в документе.
-	 * Гарантированно {@code getStartOffset()} <= {@link #getEndOffset()}.
-	 *
-	 * @return текущее смещение начала интервала в документе
-	 */
+	* Returns the current offset of the beginning of the interval in the document.
+	* Guaranteed {@code getStartOffset()} <= {@link #getEndOffset()}.
+	*
+	* @return the current offset of the beginning of the interval in the document
+	*/
 	public int getStartOffset() {
 		return start.getOffset();
 	}
 
 	/**
-	 * Возвращает текущее смещение конца интервала в документе.
-	 * Гарантированно {@link #getStartOffset()} <= {@code getEndOffset()}.
-	 *
-	 * @return текущее смещение конца интервала в документе
-	 */
+	* Returns the current offset of the end of the interval in the document.
+	* Guaranteed {@link #getStartOffset()} <= {@code getEndOffset()}.
+	*
+	* @return the current offset of the end of the interval in the document
+	*/
 	public int getEndOffset() {
 		return end.getOffset();
 	}
