@@ -1,11 +1,7 @@
 package org.socionicasys.analyst.web;
 
 import java.text.DateFormat;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import javax.swing.text.BadLocationException;
@@ -70,11 +66,11 @@ public class FileExport {
             analysisEntry.addProperty("count", analysisData.size()+1);
             analysisEntry.addProperty("aspectOne", analysis.getAspect());
             analysisEntry.addProperty("aspectTwo", analysis.getSecondAspect());
-            analysisEntry.addProperty("sign", analysis.getSign());
             analysisEntry.addProperty("modifier", analysis.getModifier());
+            analysisEntry.addProperty("sign", analysis.getSign());
+            analysisEntry.addProperty("dimension", analysis.getDimension());
             analysisEntry.addProperty("dichotomy", analysis.getFD());
             analysisEntry.addProperty("blocks", analysis.getBlocks());
-
             analysisEntry.addProperty("comment", analysis.getComment());
 
             analysisData.add(analysisEntry);
