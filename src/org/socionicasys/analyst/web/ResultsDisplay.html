@@ -14,24 +14,62 @@
                 {
                     "text": "I love pie",
                     "count": 1,
-                    "element": "Si",
-                    "marker": "Nr",
+                    "aspectOne": "Si",
+                    "aspectTwo": "Fe",
+                    "modifier": " blocked with ",
+                    "sign": "PLUS",
+                    "dimension": "Low-dimensionality",
+                    "dichotomy": "Mental",
+                    "blocks": "Super Ego",
                     "comment": ""
                 },
                 {
                     "text": "What a wonderful time",
                     "count": 1,
-                    "element": "Fe",
-                    "marker": "Mental",
-                    "comment": ""
+                    "aspectOne": "Fe",
+                    "aspectTwo": "Si",
+                    "modifier": " transferred to ",
+                    "sign": "MINUS",
+                    "dimension": "Low-dimensionality",
+                    "dichotomy": "Mental",
+                    "blocks": "Super Id",
+                    "comment": "Testing123"
                 }
             ]
         }
         // CONFIG END
 
+        function addTextIfExists(text) {
+            if (text != "") {
+                return ";" + text;
+            } else {
+                return "";
+            }
+        }
+
         import { createApp } from 'https://unpkg.com/petite-vue?module'
         
-        createApp({ config }).mount("#app");
+        createApp({ 
+            
+            config,
+
+            formatAnalysis(analysis) {
+                var text = "{";
+                text += analysis.count;
+                text += ";" + analysis.aspectOne;
+
+                text += addTextIfExists(analysis.modifier + analysis.aspectTwo);
+                text += addTextIfExists(analysis.sign);
+                text += addTextIfExists(analysis.dimension);
+                text += addTextIfExists(analysis.dichotomy);
+                text += addTextIfExists(analysis.blocks);
+            
+                text += "}";
+
+                return text;
+            }
+
+        }).mount("#app");
     </script>
 
     <!-- PAGE CSS -->
@@ -56,7 +94,7 @@
                     [{{ row.count }}] {{ row.text }} [{{ row.count }}]
                 </td>
                 <td>
-                    { {{ row.count }}: {{ row.element }}; {{ row.marker }}; {{ row.comment }}}
+                    {{formatAnalysis(row)}}
                 </td>
             </tr>
         </template>
