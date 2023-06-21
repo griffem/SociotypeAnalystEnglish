@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.swing.text.BadLocationException;
+
 import org.socionicasys.analyst.ADocument;
 import org.socionicasys.analyst.DocumentSection;
 import org.socionicasys.analyst.model.AData;
@@ -18,15 +20,25 @@ import com.google.gson.JsonObject;
 public class FileExport {
     
     public String getConfigText(ADocument document) {
-        List<DocumentSection> sections = new ArrayList<DocumentSection>(document.getADataMap().keySet());
-		Collections.sort(sections);
-		for (int i = 0; i < sections.size(); i++) {
-			DocumentSection section = sections.get(i);
-			AData data = document.getADataMap().get(section);
+        Config config = new Config("1.0", "", "", "");
 
+        Map<DocumentSection, AData> analysisMap = document.getADataMap();
 
+        for (DocumentSection section : analysisMap.keySet()) {
+            AData segment = analysisMap.get(section);
+
+            int textLength = section.getEndOffset()-section.getStartOffset();
+
+            try {
+                String text = document.getText(section.getStartOffset(), textLength);
+
+                config.addAnalysis(text, segment);
+            } catch (BadLocationException e) {
+                continue;
+            }
         }
-        return "";
+
+        return config.getJson().getAsString();
     }
 
     public class Config {
@@ -43,7 +55,7 @@ public class FileExport {
             configJson.addProperty("data_created", dateString);
         }
 
-        public void setComments(String comment) {
+        public void setAnalysisComments(String comment) {
             if (configJson.has("comments")) {
                 configJson.remove("comments");
             }
@@ -51,14 +63,19 @@ public class FileExport {
             configJson.addProperty("comments", comment);
         }
 
-        public void addAnalysis(String text, String element, String marker, String comment) {
+        public void addAnalysis(String text, AData analysis) {
             JsonObject analysisEntry = new JsonObject();
 
             analysisEntry.addProperty("text", text);
             analysisEntry.addProperty("count", analysisData.size()+1);
-            analysisEntry.addProperty("element", element);
-            analysisEntry.addProperty("marker", marker);
-            analysisEntry.addProperty("comment", comment);
+            analysisEntry.addProperty("aspectOne", analysis.getAspect());
+            analysisEntry.addProperty("aspectTwo", analysis.getSecondAspect());
+            analysisEntry.addProperty("sign", analysis.getSign());
+            analysisEntry.addProperty("modifier", analysis.getModifier());
+            analysisEntry.addProperty("dichotomy", analysis.getFD());
+            analysisEntry.addProperty("blocks", analysis.getBlocks());
+
+            analysisEntry.addProperty("comment", analysis.getComment());
 
             analysisData.add(analysisEntry);
         }
